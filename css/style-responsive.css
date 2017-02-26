@@ -1,0 +1,442 @@
+/* iPad (portrait) */
+@media (min-width: 320px) and (max-width: 579px) {
+
+    
+    
+.menu{
+  display:none;
+}
+    
+.sticky-wrapper{
+
+    display: none;
+}
+
+.menu-media{
+  display:block;
+}
+
+.start-page{
+    background-size: 200% 100%;
+    background-position: 50% 0px !important;
+}
+    
+.start-page .content {
+    width:300px;
+    height:100%;
+    text-align: center !important;
+}
+
+.start-page, .start-page .opacity{
+  height:100%;
+}
+.start-page .content .text {
+    width:300px;
+    text-align: center !important;
+    font-size: 26px; 
+}
+    
+.start-page .content .text .logo{
+    width:100%;
+    text-align:center !important;
+    margin-left: 0px;
+}
+    
+    .start-page .content .text .logo img{
+        margin-top: 35%;
+        width: 150px;
+}
+    
+    
+    .start-page .content .arrow-down{
+        visibility: hidden;        
+    }
+    
+#child {
+    position: relative;
+    top: 5%;
+}
+
+h1.firstname{
+    font-size: 95%;
+    text-align: center !important;
+}
+
+span.lastname{
+    font-size: 95%;
+    text-align: center !important;              
+}
+
+p.subtext1{
+    text-align: center !important; 
+}
+
+p.subtext2{
+    width: 100%;
+    text-align: center !important;
+    font-size: 55%;
+    line-height: 20px;
+    margin-top:50%;
+
+}
+    
+#social{
+    position: absolute;
+    width: 290px;
+    margin-top: 3%;
+    text-align: center !important;
+}   
+    
+    
+#social img {
+    padding: 0.3em;
+    height: 2em;
+    margin-left: 4%;
+}
+    
+h1 {
+  font-size:36px;
+}
+
+.about-us{
+    background-position: 30% 0px !important;
+    background-position: left !important;
+}
+    
+/*
+.about-us h1 {
+  margin-top:0;
+}
+*/
+
+.about-us .content{
+  width:300px;
+}
+
+.about-us hr,.portfolio .portfolio-margin hr, .contact hr {
+  width:106px;
+}
+
+.about-us .column-one, .about-us .column-two{
+  width:300px;
+  margin-bottom:20px;
+}
+
+ .about-us .content .column-three{
+  width:300px;
+  margin-bottom:70px;
+ }
+
+.portfolio .portfolio-margin{
+  width:300px;
+}
+
+.partners .content{
+  width:300px;
+}
+
+.partners .logo {
+  width:300px;
+}
+
+.partners .logo img {
+  width:80px;
+  padding-bottom:20px;
+}
+
+.contact, .contact .content, .contact .content .form{
+  width:300px;
+}
+
+.contact .content .contact-text{
+  padding-left:0px;
+  width:300px;
+  text-align:center;
+  margin-top:60px;
+}
+
+input{
+  width:320px;
+}
+
+    input.submit{
+    margin: 0 0 0 0;
+    padding-left: 0px;
+    margin: auto;
+    width: 56%;
+    text-align: left;
+
+}
+    
+textarea{
+  width:320px;
+}
+
+.contact .content .contact-text {
+  width:275px;
+}
+
+.contact .content .form .column, .contact .content .form .column-3{
+  width:320px;
+}
+
+.contact .content .form .column-2{
+  width:320px;
+  padding-left:0;
+}
+
+.grid li{
+  margin:0 0 15px 0;
+}
+
+.contact{ 
+  margin:0 auto;
+}
+
+.footer{
+  position:relative;
+}
+
+}
+
+
+
+/* iPad (portrait) */
+@media (min-width: 580px) and (max-width: 767px) {
+
+.menu{
+  display:none;
+}
+
+    .sticky-wrapper{
+        
+        display: none;
+    }
+    
+.menu-media{
+  display:block;
+}
+
+.menu-media .menu-content{
+  width:540px;
+}
+
+    
+    
+.partners .logo img {
+  padding-bottom:20px;
+}
+
+.start-page{
+    background-position: 50% 0px !important;
+    
+}
+    
+.start-page .content {
+  width:100%;
+  height:100%;
+}
+
+.start-page, .start-page .opacity{
+  height:100%;
+}
+    
+.start-page .content .text {
+  width:97%;
+}
+.start-page .content .text .logo{
+    margin-left: 5px;
+}
+    
+h1 {
+  font-size:36px;
+} 
+    
+.about-us{
+    background-position: 30% 0px !important;
+    background-position: left !important;
+}
+    
+
+.about-us .content{
+  width:300px;
+}
+
+.about-us hr,.portfolio .portfolio-margin hr, .contact hr {
+  width:106px;
+}
+
+.about-us .column-one, .about-us .column-two{
+  width:300px;
+  margin-bottom:20px;
+}
+
+ .about-us .column-three{
+  width:300px;
+  margin-bottom:70px;
+ }
+
+.portfolio .portfolio-margin{
+  width:300px;
+}
+
+.partners .content{
+  width:400px;
+}
+
+.partners .logo {
+  width:400px;
+}
+
+.partners .logo img {
+  width:80px;
+  padding-bottom:20px;
+}
+
+.contact, .contact .content, .contact .content .form{
+  width:300px;
+}
+
+.contact .content .contact-text{
+  padding-left:0px;
+  width:300px;
+  text-align:center;
+  margin-top:60px;
+}
+
+.contact .content .contact-text {
+  width:275px;
+}
+
+.contact .content .form .column, .contact .content .form .column-3{
+  width:420px;
+}
+
+.contact .content .form .column-2{
+  width:420px;
+  padding-left:0;
+}
+
+.contact{ 
+  margin:0 auto;
+}
+
+.footer{
+  position:relative;
+}
+
+input{
+  width:420px;
+}
+    
+input.submit{
+    margin: 0 0 0 0;
+    padding-left: 0px;
+    margin: auto;
+    width: 56%;
+    text-align: left;
+
+}
+
+textarea{
+  width:420px;
+}
+
+
+}
+
+/* iPad (portrait) */
+@media (min-width: 768px) and (max-width: 1023px) {
+
+.start-page{
+    background-position: 50% 0px !important;
+}
+
+.menu-content .logo{
+  width:200px;
+}
+
+.menu-content{
+  width:700px;
+}
+    
+.about-us{
+    background-position: 30% 0px !important;
+    background-position: left !important;
+}
+
+.about-us .content{
+  width:700px;
+}
+
+.about-us p{
+  width:200px;
+}
+
+.about-us h2{
+  letter-spacing:2px;
+}
+
+.about-us .column-one{
+  width:233px;
+}
+
+.about-us .column-two{
+  width:233px;
+}
+
+.about-us .column-three{
+  width:233px;
+}
+
+.portfolio .portfolio-margin {
+  width:600px;
+}
+
+.partners .content{
+  width:700px;
+}
+
+.partners .logo {
+  width:700px;
+}
+
+.contact{ 
+  margin:0 auto;
+}
+
+.contact .content {
+  width:700px
+}
+
+.footer{
+  position:relative;
+}
+
+.contact .content .form{
+  width:355px;
+}
+
+input{
+  width:320px;
+}
+
+textarea{
+  width:320px;
+}
+
+.contact .content .contact-text {
+  width:275px;
+}
+
+.contact .content .form .column, .contact .content .form .column-3{
+  width:450px;
+}
+
+.contact .content .form .column-2{
+  width:450px;
+  padding-left:0;
+}
+
+
+}
