@@ -1,4 +1,4 @@
-/* iPad (portrait) */
+/* iPhone (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
 
     
@@ -81,9 +81,10 @@ p.subtext2{
 }
     
 #social{
-    position: absolute;
+    position: fixed;
+    bottom: 5%;
     width: 290px;
-    margin-top: 3%;
+    /*margin-top: 3%;*/
     text-align: center !important;
 }   
     
