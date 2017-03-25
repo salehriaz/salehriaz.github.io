@@ -234,6 +234,10 @@ textarea{
     
 }
     
+    .start-page .content .arrow-down{
+        visibility: hidden;        
+    }
+    
 .start-page .content {
   width:100%;
   height:100%;
