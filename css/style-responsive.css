@@ -77,11 +77,12 @@ p.subtext2{
     font-size: 55%;
     line-height: 20px;
     margin-top:50%;
+    margin-bottom: 3%;
 
 }
     
 #social{
-    position: fixed;
+    position: relative;
     bottom: 5%;
     width: 290px;
     /*margin-top: 3%;*/
