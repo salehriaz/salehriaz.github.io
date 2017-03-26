@@ -1,7 +1,10 @@
 /* iPad (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
 
-    
+#resstyle{
+    position: relative;
+    text-align: center !important;
+}
     
 .menu{
   display:none;

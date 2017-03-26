@@ -146,7 +146,30 @@ p.subtext2{
     line-height: 30px;
 }
 
+#resstyle{
+    font-family: 'Josefin Sans', sans-serif;
+    font-smooth: always;
+    -webkit-font-smoothing: antialiased;
+    font-size:18px !important;
+    color:#dbdbdb;
+    font-weight:400;
+    letter-spacing:2px;
+    margin-top:15px;
+    text-align: right;
+    bottom: 5%;
+    
+        opacity:1;
+  -webkit-transition: all 0.2s ease-in;
+	-moz-transition: all 0.2s ease-in;
+	-ms-transition: all 0.2s ease-in;
+	-o-transition: all 0.2s ease-in;
+	transition: all 0.2s ease-in;
+}
 
+#resstyle:hover{
+  opacity:0.5;
+
+}
 
 #social{
     margin-top: 2%;
