@@ -1,10 +1,5 @@
 /* iPad (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
-
-#resstyle{
-    position: relative;
-    text-align: center !important;
-}
     
 .menu{
   display:none;
@@ -16,7 +11,8 @@
 }
 
 .menu-media{
-  display:block;
+    display:block;
+    background: #dd5555;
 }
 
 .start-page{
@@ -46,7 +42,7 @@
 }
     
     .start-page .content .text .logo img{
-        margin-top: 35%;
+        margin-top: 30%;
         width: 150px;
 }
     
@@ -55,11 +51,6 @@
         visibility: hidden;  
         
     }
-    
-#child {
-    position: relative;
-    top: 5%;
-}
 
 h1.firstname{
     font-size: 95%;
@@ -86,11 +77,16 @@ p.subtext2{
 
 }
     
-#social{
-    position: absolute;
-    width: 290px;
-    margin-top: 3%;
+    #resstyle{
+    position: relative;
     text-align: center !important;
+}
+    
+#social{
+    position: relative;
+    width: 290px;
+    text-align: center !important;
+    top: -100%;
 }   
     
     
@@ -98,6 +94,12 @@ p.subtext2{
     padding: 0.3em;
     height: 2em;
     margin-left: 4%;
+}
+    
+#child {
+    position: relative;
+    top: 5%;
+    height: 100px;
 }
     
 h1 {
@@ -220,7 +222,8 @@ textarea{
     }
     
 .menu-media{
-  display:block;
+    display:block;
+    background: #dd5555;
 }
 
 .menu-media .menu-content{
