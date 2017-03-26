@@ -1,4 +1,4 @@
-/* iPhone (portrait) */
+/* iPad (portrait) */
 @media (min-width: 320px) and (max-width: 579px) {
 
     
@@ -14,7 +14,6 @@
 
 .menu-media{
   display:block;
-    background: #dd5555;
 }
 
 .start-page{
@@ -24,7 +23,7 @@
     
 .start-page .content {
     width:300px;
-    height:97%;
+    height:100%;
     text-align: center !important;
 }
 
@@ -50,7 +49,8 @@
     
     
     .start-page .content .arrow-down{
-        visibility: hidden;        
+        visibility: hidden;  
+        
     }
     
 #child {
@@ -78,26 +78,13 @@ p.subtext2{
     font-size: 55%;
     line-height: 20px;
     margin-top:50%;
-    margin-bottom: 3%;
-    
-    visibility: hidden;
+
 }
-    
-    #resstyle{
-        
-        position: relative;
-        text-align: center!important;
-        width: inherit;
-        
-    }
     
 #social{
     position: absolute;
-    top: 2%;
-    
     width: 290px;
-    margin-top: 32%;
-    margin-bottom: 52%;
+    margin-top: 3%;
     text-align: center !important;
 }   
     
@@ -107,7 +94,7 @@ p.subtext2{
     height: 2em;
     margin-left: 4%;
 }
-
+    
 h1 {
   font-size:36px;
 }
@@ -229,7 +216,6 @@ textarea{
     
 .menu-media{
   display:block;
-    background: #dd5555;
 }
 
 .menu-media .menu-content{
@@ -247,13 +233,14 @@ textarea{
     
 }
     
-    .start-page .content .arrow-down{
-        visibility: hidden;        
-    }
-    
 .start-page .content {
   width:100%;
   height:100%;
+}
+    
+.start-page .content .arrow-down{
+    visibility: hidden;  
+
 }
 
 .start-page, .start-page .opacity{

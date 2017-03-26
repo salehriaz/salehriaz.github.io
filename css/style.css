@@ -13,17 +13,9 @@
   z-index: 9999;
   background: url('../img/dots.svg') 50% 50% no-repeat rgb(249,249,249);
 }
-
-.preloader2{
-  position:fixed;
-  width:100%;
-  height:100%;
-  background:white;
-  z-index:99999;
-}
  
-.preloader2 .item{
-  position:fixed;
+.preloader .item{
+  position:absolute;
   width:100px;
   height:100px;
   left:50%;
@@ -141,32 +133,6 @@ p.subtext1{
     text-align: right;
 }
 
-#resstyle{
-    font-family: 'Josefin Sans', sans-serif;
-    font-smooth: always;
-    -webkit-font-smoothing: antialiased;
-    font-size:18px !important;
-    color:#dbdbdb;
-    font-weight:400;
-    letter-spacing:2px;
-    margin-top:15px;
-    text-align: right;
-    bottom: 5%;    
-    
-    
-        opacity:1;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in;
-}
-
-#resstyle:hover{
-  opacity:0.5;
-
-}
-
 p.subtext2{
     font-family: 'Raleway', sans-serif;
     font-smooth: always;
@@ -178,8 +144,9 @@ p.subtext2{
     margin-top:40px;
     text-align: right;
     line-height: 30px;
-    margin-bottom: 2%;
 }
+
+
 
 #social{
     margin-top: 2%;
@@ -284,7 +251,7 @@ h1 span{
 
 #child {
     position: relative;
-    top: 15%;
+    top: 20%;
 }
 
 /*.start-page .content .text img{
