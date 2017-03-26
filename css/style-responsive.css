@@ -81,9 +81,14 @@ p.subtext2{
     margin-bottom: 3%;
 }
     
+    #resstyle{
+        
+        position: relative;
+        text-align: center !important;
+    }
+    
 #social{
     position: relative;
-    margin-bottom: 
     width: 290px;
     /*margin-top: 3%;*/
     text-align: center !important;
