@@ -151,7 +151,8 @@ p.subtext1{
     letter-spacing:2px;
     margin-top:15px;
     text-align: right;
-    bottom: 5%;
+    bottom: 5%;    
+    
     
         opacity:1;
   -webkit-transition: all 0.2s ease-in;
