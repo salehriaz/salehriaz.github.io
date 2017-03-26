@@ -88,8 +88,10 @@ p.subtext2{
     }
     
 #social{
-    position: relative;
+    position: absolute;
+    bottom: 5%;
     width: 290px;
+    margin-top: 3%;
     /*margin-top: 3%;*/
     text-align: center !important;
 }   
