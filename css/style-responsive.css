@@ -76,6 +76,8 @@ p.subtext1{
 }
 
 p.subtext2{
+    
+    visibility: hidden;
     width: 100%;
     text-align: center !important;
     font-size: 55%;
