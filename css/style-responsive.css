@@ -84,7 +84,9 @@ p.subtext2{
     #resstyle{
         
         position: relative;
-        text-align: center !important;
+        text-align: center!important;
+        width: inherit;
+        
     }
     
 #social{
