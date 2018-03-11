@@ -186,7 +186,7 @@ li a:hover {
 .object_earth{
     position: absolute;
     top: 20%;
-    right: 20%;
+    left: 15%;
     z-index: 90;
 /*    animation: spin-earth 100s infinite linear both;*/
 }
@@ -194,7 +194,7 @@ li a:hover {
 .object_moon{
     position: absolute;
     top: 12%;
-    right: 12%;
+    left: 25%;
 /*
     transform: rotate(0deg);
     transition: transform ease-in 99999999999s;
