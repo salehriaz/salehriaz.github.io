@@ -763,7 +763,7 @@ h1 span{
 }
 
 .grid .text:hover {
-  opacity:0.95;
+  opacity:0.85;
 }
 
 .grid .no-text {
@@ -1111,4 +1111,33 @@ textarea {
 .footer .copyright a{
   color:#a4a4a4;
   text-decoration:none;
+}
+
+.view-more{
+    text-align: center;
+    margin-bottom: 120px;
+}
+
+.view-more a{
+    border: 1px solid #dd5555;
+    padding: 15px;
+    color: #dd5555;
+    text-decoration: none;
+    background: transparent;
+    
+    -webkit-transition: all 0.4s ease-in;
+    -moz-transition: all 0.4s ease-in;
+    -ms-transition: all 0.4s ease-in;
+    -o-transition: all 0.4s ease-in;
+    transition: all 0.4s ease-in;
+}
+
+.view-more a:hover{
+    background: #dd5555;
+    border-color: #dd5555;
+    color: #fff;
+}
+
+.view-more a:nth-child(2){
+    margin-left: 10px;
 }
