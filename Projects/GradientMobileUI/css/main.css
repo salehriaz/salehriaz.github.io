@@ -3,7 +3,6 @@
 body{
     font-family: 'Montserrat', sans-serif;
     background-color: #ececec;
-    
 }
 
 .screen{
@@ -36,6 +35,7 @@ body{
 }
 
 .text_max{
+    visibility: hidden;
     font-size: 11px;
     letter-spacing: 1px;
     color: #fff;
@@ -178,6 +178,7 @@ body{
 }
 
 #restart{
+    cursor: pointer;
     background-image: linear-gradient(135deg, #29DAC6 0%, #329DE3 100%);
     border: 0;
     color: #fff;
