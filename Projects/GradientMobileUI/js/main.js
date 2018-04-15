@@ -31,6 +31,7 @@
     });
     
     $("#restart").click(function() {
+        $(".signup-form input").val("");
         tlScreen1.restart();
     });
     
