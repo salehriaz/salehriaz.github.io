@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(90deg, #F16625 0%, #EC1577 100%);
+}
+
+.player-container{
+    text-align: center;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.player-bg{
+    display: inline-block;
+    overflow: hidden;
+    width: 330px;
+    height: 400px;
+    border-radius: 10px;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.15);
+    background: -moz-linear-gradient(270deg, rgba(52,54,63,1) 0%, rgba(38,37,44,1) 100%); /* ff3.6+ */
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(52,54,63,1)), color-stop(100%, rgba(38,37,44,1))); /* safari4+,chrome */
+    background: -webkit-linear-gradient(270deg, rgba(52,54,63,1) 0%, rgba(38,37,44,1) 100%); /* safari5.1+,chrome10+ */
+    background: -o-linear-gradient(270deg, rgba(52,54,63,1) 0%, rgba(38,37,44,1) 100%); /* opera 11.10+ */
+    background: -ms-linear-gradient(270deg, rgba(52,54,63,1) 0%, rgba(38,37,44,1) 100%); /* ie10+ */
+    background: linear-gradient(180deg, rgba(52,54,63,1) 0%, rgba(38,37,44,1) 100%); /* w3c */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#34363F', endColorstr='#26252C',GradientType=0 ); /* ie6-9 */
+    text-align: center;
+}
+
+.album-art{
+    margin-top: 30px;
+}
+
+.player-2 .album-art{
+    margin-top: 20px;
+}
+
+.song-name{
+    margin: 0;
+    font-weight: 100;
+    font-size: 23px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+}
+
+.album-name{
+    font-weight: 200;
+    font-size: 12px;
+    color: #878787;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin: 0;
+    margin-top: 3px;
+}
+
+.player-elements{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.player-2{
+    margin-left: 30px;
+}
+
+.player-2 .player-elements{
+    position: absolute;
+    bottom: 44px;
+}
+
+.equalizer{
+    margin-top: 23px;
+}
+
+.player-elements div{
+    display: inline-block;
+    position: absolute;
+    cursor: pointer;
+}
+
+.player-elements .btn-loop{
+    left: 38px;
+}
+
+.player-elements .btn-slow{
+    left: 93px;
+}
+
+.player-elements .btn-play{
+    left: 152px;
+}
+
+.player-elements .btn-fast{
+    left: 220px;
+}
+
+.player-elements .btn-shuffle{
+    left: 279px;
+}
+
+@keyframes moveSeekbar {0% {width: 0%;} 100% {width: 100%;} }
+
+.seek-encapsulate{
+    position: relative;
+}
+
+.seek-bar{
+    position: absolute;
+    bottom: -53px;
+    left: 15px;
+    width: 300px;
+}
+.seek-bar .seek-total{
+    position: absolute;
+    border-radius: 50px;
+    height: 4px;
+    width: 100%;
+    background-color: #373737;
+    cursor: pointer;
+}
+
+.seek-bar .seek-fill{
+    position: absolute;
+    border-radius: 50px;
+    height: 4px;
+    width: 0%;
+    cursor: pointer;
+    background-image: linear-gradient(90deg, #F16625 0%, #EC1577 100%);
+    animation-name: moveSeekbar;
+    animation-duration: 100s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.seek-bar:hover .seek-fill .marker{
+    opacity: 1;
+}
+
+.seek-bar .seek-fill .marker{
+    opacity: 0;
+    border-radius: 1px;
+    position: absolute;
+    right: -4px;
+    top: -3px;
+    height: 10px;
+    width: 10px;
+    background-image: linear-gradient(90deg, #F16625 0%, #EC1577 100%);
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -ms-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+
+.seek-bar .time{
+    font-size: 11px;
+    color: rgba(255,255,255,0.35);
+    font-weight: 200;
+    letter-spacing: 0.5px;
+}
+
+.seek-bar .time .current{
+    position: absolute;
+    left: 0px;
+    bottom: -25px;
+}
+
+.time .total{
+    position: absolute;
+    right: 0px;
+    bottom: -25px;
+}
+
+.un{
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+}
+
+.tr{
+    -webkit-transition: all 0.2s ease-in;
+    -moz-transition: all 0.2s ease-in;
+    -ms-transition: all 0.2s ease-in;
+    -o-transition: all 0.2s ease-in;
+    transition: all 0.2s ease-in;
+}
+
+#restart{
+    cursor: pointer;
+    background-image: linear-gradient(135deg, #29DAC6 0%, #329DE3 100%);
+    border: 0;
+    color: #fff;
+    opacity: 0.3;
+    position: fixed;
+    right: 10px;
+    top: 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    letter-spacing: 0.8px;
+    z-index: 999;
+}
+
+#restart:hover{
+    opacity: 1;
+}
+
+@media screen and (max-width: 750px) {
+  .player-2 {
+    margin-left: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .player-bg {
+    transform: scale(0.6);
+  }
+}
+
+    
