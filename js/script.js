@@ -86,8 +86,6 @@ else
 
 $(window).load(function(){
 
-$(".preloader").delay(1000).fadeOut("slow")
-
   // Parallax
   if ($('.parallax-background').length) {
     $(".parallax-background").parallax();
