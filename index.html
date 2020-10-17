@@ -5,26 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Saleh Riaz</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="dist/magic-mouse.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+    <script type="text/javascript" src="dist/magic_mouse.js"></script>
 </head>
 
 <body>
-
     <div class="container">
-        <div class="text">
-            <h1>CSS Parallex Effect</h1>
+        <div class="top-bar">
+            <img src="img/nameLogo.svg" width="90px">
         </div>
-        <div id="scene" class="scene">
-            <div data-depth="1.00"><img src="astronaut.png"></div>
-            <div data-depth="0.60"><img src="Neptune.png"></div>
-            <div data-depth="0.40"><img src="Mars.png"></div>
-            <div data-depth="0.80"><img src="rocket.png"></div>
+
+        <div class="portions">
+            <div class="left column">
+                <div id="scene" class="scene">
+                    <div data-depth="0.20"><img class="bulb" src="img/bulb.svg"></div>
+                    <div data-depth="0.50"><img class="curvedPage" src="img/curvedPage.svg"></div>
+                    <div data-depth="0.70"><img class="gear3" src="img/gear3.svg"></div>
+                    <div data-depth="1.20"><img class="laptop" src="img/laptop.svg"></div>
+                    <div data-depth="0.30"><img class="gear1" src="img/gear1.svg"></div>
+                    <div data-depth="0.10"><img src="img/person.svg"></div>
+                    <div data-depth="0.90"><img class="graphPage" src="img/graphPage.svg"></div>
+                    <div data-depth="0.30"><img class="gear2" src="img/gear2.svg"></div>
+
+                </div>
+            </div>
+            <div class="right column">
+                <div class="headline">
+                    <p class="name" style="color: #fff;">HELLO, I AM SALEH</p>
+                    <h3 class="title">A UI / UX / PRODUCT DESIGNER</h3>
+                </div>
+                <div class="social">
+                    <a class="tooltip" data-tooltip="Resume" href="resume_saleh.pdf" target="_blank">
+                        <img class="magic-hover magic-hover__square" src="img/resume.svg" />
+                    </a>
+                    <a class="tooltip" data-tooltip="Behance" href="https://www.behance.net/salehriaz" target="_blank">
+                        <img class="magic-hover magic-hover__square" src="img/behance.svg" />
+                    </a>
+                    <a class="tooltip" data-tooltip="Dribbble" href="https://www.dribbble.com/salehriaz" target="_blank">
+                        <img class="magic-hover magic-hover__square" src="img/dribbble.svg" />
+                    </a>
+                    <a class="tooltip" data-tooltip="LinkedIn" href="https://www.linkedin.com/in/salehriaz/" target="_blank">
+                        <img class="magic-hover magic-hover__square" src="img/linkedin.svg" />
+                    </a>
+                    <a class="tooltip" data-tooltip="Codepen" href="https://codepen.io/salehriaz/" target="_blank">
+                        <img class="magic-hover magic-hover__square" src="img/codepen.svg" />
+                    </a>
+                    <a class="tooltip" data-tooltip="Twitter" href="https://twitter.com/salehriazq" target="_blank">
+                        <img class="magic-hover magic-hover__square" src="img/twitter.svg" />
+                    </a>
+
+                </div>
+            </div>
+
+
+
         </div>
+
+        <div class="lets-spice-things-up magic-hover magic-hover__square">
+            <p class="tooltip--left desktop-only" data-tooltip="Just kidding. You can click. #ReversePsychology">Do not click here</p>
+            <p class="mobile-only">Do not press here</p>
+        </div>
+
     </div>
     <script>
         var scene = document.getElementById('scene');
         var parallax = new Parallax(scene);
+
+    </script>
+    <script type="text/javascript">
+        options = {
+            "cursorOuter": "circle-basic",
+            "hoverEffect": "circle-move",
+            "hoverItemMove": false,
+            "defaultCursor": false,
+            "outerWidth": 30,
+            "outerHeight": 30
+        };
+        magicMouse(options);
 
     </script>
 </body>

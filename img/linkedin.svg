@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>linkedin</title>
+    <desc>Created with Sketch.</desc>
+    <g id="linkedin" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(4.000000, 4.000000)">
+            <rect id="Rectangle-Copy-8" fill="#D8D8D8" opacity="0" x="0" y="0" width="50" height="50"></rect>
+            <g id="group" transform="translate(11.000000, 11.000000)" fill="#FFFFFF" fill-rule="nonzero">
+                <path d="M5.81,2.91666667 C5.81,4.52783333 4.515,5.83333333 2.91666667,5.83333333 C1.31833333,5.83333333 0.0233333333,4.52783333 0.0233333333,2.91666667 C0.0233333333,1.30666667 1.31833333,0 2.91666667,0 C4.515,0 5.81,1.30666667 5.81,2.91666667 Z M5.83333333,8.16666667 L0,8.16666667 L0,26.8333333 L5.83333333,26.8333333 L5.83333333,8.16666667 Z M15.1456667,8.16666667 L9.34966667,8.16666667 L9.34966667,26.8333333 L15.1468333,26.8333333 L15.1468333,17.0345 C15.1468333,11.5861667 22.1806667,11.1405 22.1806667,17.0345 L22.1806667,26.8333333 L28,26.8333333 L28,15.0138333 C28,5.8205 17.591,6.15533333 15.1456667,10.6808333 L15.1456667,8.16666667 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
