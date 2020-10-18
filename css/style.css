@@ -265,8 +265,67 @@ body {
     letter-spacing: 1px;
 }
 
+
+
+.overlay {
+
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.loader-overlay {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transform: translateX(-100%);
+    top: 0;
+    -webkit-transition: all 2.4s ccubic-bezier(.65, 0, .35, 1);
+    -moz-transition: all 2.4s cubic-bezier(.65, 0, .35, 1);
+    -ms-transition: all 2.4s cubic-bezier(.65, 0, .35, 1);
+    -o-transition: all 2.4s cubic-bezier(.65, 0, .35, 1);
+    transition: all 2.4s cubic-bezier(.65, 0, .35, 1);
+}
+
+.white-overlay {
+    background-color: #fff;
+    /*    transform: translateX(-100%);*/
+}
+
+.black-overlay {
+    background-color: #000;
+    transform: translateX(-100%);
+}
+
 .mobile-only {
     display: none;
+}
+
+.video-container {
+    width: 100%;
+}
+
+.card {
+    width: 33.33%;
+    display: inline-block;
+    float: left;
+}
+
+
+.sticky-button {
+    padding: 55px;
+    position: fixed;
+    z-index: 999;
+}
+
+.sticky-button .back-btn {
+    padding: 22px;
+}
+
+.scrollMe {
+    height: 100vh;
+    overflow-y: auto;
 }
 
 
@@ -323,7 +382,6 @@ body {
 
     }
 
-
     .portions .right p,
     .portions .right h3 {
         text-align: center;
@@ -350,6 +408,10 @@ body {
         display: block;
         text-align: center;
 
+    }
+
+    .card {
+        width: 50%;
     }
 }
 
@@ -398,6 +460,13 @@ body {
         width: 100%;
     }
 
+    .card {
+        width: 100%;
+    }
+
+    .sticky-button {
+        display: none;
+    }
 }
 
 
