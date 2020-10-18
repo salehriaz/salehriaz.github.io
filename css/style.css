@@ -298,6 +298,25 @@ body {
     transform: translateX(-100%);
 }
 
+.loader-overlay2 {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    transform: translateX(100%);
+    top: 0;
+    -webkit-transition: all 2.4s ccubic-bezier(.65, 0, .35, 1);
+    -moz-transition: all 2.4s cubic-bezier(.65, 0, .35, 1);
+    -ms-transition: all 2.4s cubic-bezier(.65, 0, .35, 1);
+    -o-transition: all 2.4s cubic-bezier(.65, 0, .35, 1);
+    transition: all 2.4s cubic-bezier(.65, 0, .35, 1);
+}
+
+
+.black-overlay2 {
+    background-color: #000;
+    transform: translateX(100%);
+}
+
 .mobile-only {
     display: none;
 }

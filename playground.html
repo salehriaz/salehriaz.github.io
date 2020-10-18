@@ -69,6 +69,16 @@
             <img src="img/backButton.svg">
         </a>
     </div>
+
+    <div class="loader-overlay2">
+
+        <div class="overlay white-overlay">
+
+        </div>
+        <div class="overlay black-overlay2">
+
+        </div>
+    </div>
 </body>
 
 <script type="text/javascript">
@@ -94,6 +104,26 @@
             (this).currentTime = 0;
             //                console.log("OUT NOW")
         });
+    });
+
+
+    function pageRedirect() {
+
+        window.location.replace("index.html");
+    }
+
+    function hideMe() {
+        $(".sticky-button a").hide()
+    }
+
+    $(".sticky-button a").click(function(e) {
+        e.preventDefault();
+        $(".loader-overlay2").css("transform", "translateX(-100%)");
+        setTimeout("hideMe()", 1500);
+
+        setTimeout("pageRedirect()", 3400);
+
+
     });
 
 </script>
