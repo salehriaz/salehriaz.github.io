@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.main-container {
+    text-align: center;
+    height: 100vh;
+}
+
+.presentation {
+    width: 80%;
+    background-color: #fff;
+    margin: 5% auto;
+}
+
+.presentation img {
+    width: 100%;
+}
+
+.sticky-close {
+    position: fixed;
+    top: 30px;
+    right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.hi {}
