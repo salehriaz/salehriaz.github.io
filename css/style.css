@@ -335,7 +335,7 @@ body {
 .sticky-button {
     padding: 55px;
     position: fixed;
-    z-index: 999;
+    z-index: 99;
 }
 
 .sticky-button .back-btn {
@@ -347,11 +347,37 @@ body {
     overflow-y: auto;
 }
 
+.light-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 100;
+    display: none;
+
+}
+
+.light-box video {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    width: 65%;
+}
+
 
 
 /*RESPONSIVE*/
 
 @media only screen and (max-width: 768px) {
+
+    .light-box video {
+        width: 100%;
+    }
 
     .top-bar {
         width: 100%;
