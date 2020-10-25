@@ -406,15 +406,39 @@ body {
     font-weight: 300;
 }
 
+.ml2 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.ml12 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
 .project-sheet {
     background-color: #fff;
     font-size: 0;
+}
+
+@keyframes projectPull {
+    0% {
+        transform: translateY(200px);
+    }
+
+    100% {
+        transform: translateY(-120px);
+    }
 }
 
 .project-holder {
     padding: 0 120px;
     transform: translateY(-120px);
     font-size: 0;
+    animation-name: projectPull;
+    animation-duration: 0.8s;
+    animation-timing-function: easeOut;
+    /*        cubic-bezier(.65, 0, .35, 1);*/
 }
 
 .project-card {
