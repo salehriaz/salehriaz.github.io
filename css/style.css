@@ -370,11 +370,29 @@ body {
 }
 
 /*Projects*/
+
+@keyframes introPull {
+    0% {
+        transform: translateY(120px);
+        opacity: 0;
+
+    }
+
+    100% {
+        transform: translateY(0px);
+        opacity: 1;
+    }
+}
+
 .intro {
     margin-top: 350px;
     padding: 0 120px;
     font-size: 0;
     margin-bottom: 205px;
+    animation-name: introPull;
+    animation-duration: 0.8s;
+    animation-timing-function: easeOut;
+
 }
 
 .intro div {
@@ -406,15 +424,6 @@ body {
     font-weight: 300;
 }
 
-.ml2 .letter {
-    display: inline-block;
-    line-height: 1em;
-}
-
-.ml12 .letter {
-    display: inline-block;
-    line-height: 1em;
-}
 
 .project-sheet {
     background-color: #fff;
@@ -444,9 +453,156 @@ body {
 .project-card {
     display: inline-block;
     width: 50%;
-    height: 350px;
+    height: 450px;
     background-color: #D8D8D8;
+    background-size: cover !important;
 }
+
+.project-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.2);
+}
+
+.project-link {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.2);
+}
+
+.project-description {
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    right: 40px;
+    z-index: 3;
+    -webkit-transition: color 800ms cubic-bezier(0.7, 0, 0.3, 1), -webkit-transform 800ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 800ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    -moz-transition: color 800ms cubic-bezier(0.7, 0, 0.3, 1), -moz-transform 800ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 800ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    transition: color 800ms cubic-bezier(0.7, 0, 0.3, 1), transform 800ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 800ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+.project-type {
+    color: #fff;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 10px;
+    -webkit-transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    -moz-transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+.project-title {
+    margin-bottom: 3px;
+    color: #fff;
+    display: block;
+    font-size: 32px;
+    font-weight: 900;
+}
+
+.project-intro {
+    font-size: 32px;
+    font-weight: 900;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    opacity: 0;
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    -o-transform: translateY(30%);
+    transform: translateY(30%);
+    -webkit-transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1), -webkit-transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    -moz-transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1), -moz-transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    transition: color 400ms cubic-bezier(0.7, 0, 0.3, 1), transform 400ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+.project-color {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    -webkit-transform: translateY(120%) skewY(10deg);
+    -moz-transform: translateY(120%) skewY(10deg);
+    -ms-transform: translateY(120%) skewY(10deg);
+    -o-transform: translateY(120%) skewY(10deg);
+    transform: translateY(120%) skewY(10deg);
+    -webkit-transition: -webkit-transform 800ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+    -moz-transition: -moz-transform 800ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+    transition: transform 800ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+}
+
+.project-card:hover .project-color {
+    -webkit-transform: translateY(0%) skewY(0deg);
+    -moz-transform: translateY(0%) skewY(0deg);
+    -ms-transform: translateY(0%) skewY(0deg);
+    -o-transform: translateY(0%) skewY(0deg);
+    transform: translateY(0%) skewY(0deg);
+    -webkit-transition: -webkit-transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    -moz-transition: -moz-transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+    transition: transform 600ms cubic-bezier(0.7, 0, 0.3, 1) 0ms;
+}
+
+
+.project-card:hover .project-intro {
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+    transform: translateY(0%);
+    opacity: 1;
+    -webkit-transition: -webkit-transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+    -moz-transition: -moz-transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+    transition: transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+}
+
+.project-card:hover .project-description {
+    -webkit-transform: translateY(-100%);
+    -moz-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    -o-transform: translateY(-100%);
+    transform: translateY(-100%);
+    opacity: 1;
+    -webkit-transition: -webkit-transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+    -moz-transition: -moz-transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+    transition: transform 500ms cubic-bezier(0.7, 0, 0.3, 1) 0ms, opacity 300ms cubic-bezier(0.7, 0, 0.3, 1) 100ms;
+
+}
+
+.cover-01-akshaak {
+    background: url(../Projects/covers/01-Akshaak.jpg);
+}
+
+.cover-02-aerofitness {
+    background: url(../Projects/covers/02-AeroFitness.jpg);
+}
+
+.cover-03-rtaredesign {
+    background: url(../Projects/covers/03-RTARedesign.jpg);
+}
+
+.cover-04-qoinstack {
+    background: url(../Projects/covers/04-Qoinstack.jpg);
+}
+
+.cover-05-luma {
+    background: url(../Projects/covers/05-LUMA.jpg);
+}
+
+.cover-06-sdc {
+    background: url(../Projects/covers/06-SDC.jpg);
+}
+
+
+
+
+/*Dribbble*/
 
 .dribbble-banner {
     width: 100%;
