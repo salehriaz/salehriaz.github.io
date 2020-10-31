@@ -28,6 +28,12 @@ body {
     margin: 10% auto;
 }
 
+/*
+.pres #magicMouseCursor {
+    border-color: #ff3232 !important;
+}
+*/
+
 .presentation img {
     width: 100%;
 }
