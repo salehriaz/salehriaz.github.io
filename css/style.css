@@ -12,6 +12,10 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 100%;
     /*    overflow: hidden;*/
@@ -65,6 +69,32 @@ body {
 
 }
 
+@keyframes nameAnimate {
+    0% {
+        transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -webkit-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+
+    }
+
+    100% {
+
+        transform: translateY(0);
+        -moz-transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -o-transform: translateY(0);
+        -ms-transform: translateY(0);
+    }
+}
+
+.name-div,
+.title-div,
+.playground-div {
+    overflow: hidden;
+}
+
 .right .name {
     font-weight: 300;
     opacity: 0.6;
@@ -73,6 +103,10 @@ body {
     letter-spacing: 0.5px;
     text-align: right;
     text-transform: uppercase;
+
+    animation-name: nameAnimate;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
 }
 
 .right h3.title {
@@ -82,12 +116,27 @@ body {
     text-align: right;
     font-weight: 300;
     margin-top: 17px;
+
+    animation-name: nameAnimate;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
 }
+
 
 .social {
     margin-top: 10px;
     text-align: right;
     margin-right: -16px;
+
+    animation-name: nameAnimate;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+
+.social-div {
+    overflow: hidden;
+
 }
 
 .social a {
@@ -102,55 +151,129 @@ body {
     transition: all 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
 }
 
-.social a img:hover {
-
-    /*
-    -webkit-transform: translateY(-5px);
-    -moz-transform: translateY(-5px);
-    -ms-transform: translateY(-5px);
-    -o-transform: translateY(-5px);
-    transform: translateY(-5px);
-*/
-}
 
 .scene div img {
     position: relative;
 }
 
+@keyframes bulbAnimate {
+    0% {
+        transform: translateY(60vh);
+        -moz-transform: translateY(60vh);
+        -webkit-transform: translateY(60vh);
+        -o-transform: translateY(60vh);
+        -ms-transform: translateY(60vh);
+        opacity: 0;
+
+    }
+
+    100% {
+
+        transform: translateY(0vh);
+        -moz-transform: translateY(0vh);
+        -webkit-transform: translateY(0vh);
+        -o-transform: translateY(0vh);
+        -ms-transform: translateY(0vh);
+
+        opacity: 1;
+    }
+}
 
 .bulb {
     top: 120px;
     left: -40px;
+    animation-name: bulbAnimate;
+    animation-duration: 0.8s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+
+@keyframes curvedPageAnimate {
+    0% {
+        transform: translateY(-60vh);
+        -moz-transform: translateY(-60vh);
+        -webkit-transform: translateY(-60vh);
+        -o-transform: translateY(-60vh);
+        -ms-transform: translateY(-60vh);
+        opacity: 0;
+    }
+
+    100% {
+
+        transform: translateY(0vh);
+        -moz-transform: translateY(0vh);
+        -webkit-transform: translateY(0vh);
+        -o-transform: translateY(0vh);
+        -ms-transform: translateY(0vh);
+
+        opacity: 1;
+    }
 }
 
 .curvedPage {
     top: 30px;
     left: -40px;
+    animation-name: curvedPageAnimate;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
 }
 
 .laptop {
     top: 0px;
     left: 140px;
+    animation-name: curvedPageAnimate;
+    animation-duration: 0.8s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
 }
 
 .gear1 {
     top: 120px;
     left: -70px;
+    animation-name: curvedPageAnimate;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
 }
 
 .gear2 {
     top: 260px;
     left: 180px;
+    animation-name: bulbAnimate;
+    animation-duration: 0.8s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
+
 }
 
 .gear3 {
     top: 60px;
     left: 160px;
+    animation-name: curvedPageAnimate;
+    animation-duration: 0.8s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
 }
 
 .graphPage {
     top: 140px;
     left: 160px;
+    animation-name: bulbAnimate;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
+}
+
+@keyframes personAnimate {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+
+.person {
+    animation-name: personAnimate;
+    animation-duration: 1s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
 }
 
 /*TOOLTIP*/
@@ -263,6 +386,10 @@ body {
     letter-spacing: 0;
     text-align: right;
     letter-spacing: 1px;
+
+    animation-name: personAnimate;
+    animation-duration: 1.2s;
+    animation-timing-function: cubic-bezier(0.64, 0.09, 0.08, 1);
 }
 
 
@@ -391,7 +518,7 @@ body {
     margin-bottom: 205px;
     animation-name: introPull;
     animation-duration: 0.8s;
-    animation-timing-function: easeOut;
+    animation-timing-function: ease-out;
 
 }
 
@@ -426,7 +553,7 @@ body {
 
 
 .project-sheet {
-    background-color: #fff;
+    background-color: #000;
     font-size: 0;
 }
 
@@ -446,7 +573,7 @@ body {
     font-size: 0;
     animation-name: projectPull;
     animation-duration: 0.8s;
-    animation-timing-function: easeOut;
+    animation-timing-function: ease-out;
     /*        cubic-bezier(.65, 0, .35, 1);*/
 }
 
@@ -454,7 +581,7 @@ body {
     display: inline-block;
     width: 50%;
     height: 450px;
-    background-color: #D8D8D8;
+    background-color: #000;
     background-size: cover !important;
 }
 
@@ -607,7 +734,7 @@ body {
 .dribbble-banner {
     width: 100%;
     background-color: #000;
-    padding: 60px;
+    padding: 60px 0;
     display: flex;
     /* justify-content: center; */
     flex-direction: row;
@@ -668,7 +795,22 @@ body {
     top: 0;
 }
 
+
+
 /*RESPONSIVE*/
+
+@media only screen and (max-width: 1024px) {
+    /*For Project's Intro Top Text*/
+
+    .intro .heading {
+        width: 100%;
+    }
+
+    .intro .subheading {
+        width: 100%;
+        margin-top: 20px;
+    }
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -755,6 +897,54 @@ body {
     .card {
         width: 50%;
     }
+
+    .intro .heading {
+        text-align: center;
+        display: block;
+    }
+
+    .intro .subheading {
+        text-align: center;
+        display: block;
+    }
+
+    .intro .subheading h5 {
+        text-align: center !important;
+    }
+
+    .project-card {
+        width: 100%;
+    }
+
+    .dribbble-banner {
+        display: block;
+    }
+
+    .dribbble-banner .first,
+    .dribbble-banner .second {
+        width: 100%;
+        display: block;
+        text-align: center;
+        margin-bottom: 50px;
+    }
+
+    .dribbble-banner .h5 {
+        text-align: center;
+    }
+
+    .dribbble-banner .second a {
+        display: block;
+        padding: 20px;
+        font-size: 20px;
+        font-weight: 400;
+    }
+
+    .drib {
+        vertical-align: middle;
+        margin-top: -3px;
+    }
+
+
 }
 
 
@@ -809,6 +999,45 @@ body {
     .sticky-button {
         display: none;
     }
+
+    .intro {
+        padding: 20px;
+    }
+
+    .intro .heading h2 {
+        font-size: 32px;
+    }
+
+    .intro .subheading h5 {
+        font-size: 18px;
+    }
+
+    .project-holder {
+        padding: 0;
+    }
+
+    .project-card {
+        height: 320px;
+    }
+
+    .dribbble-banner {
+        padding: 40px 20px;
+    }
+
+    .dribbble-banner .h5 {
+        font-size: 18px;
+    }
+
+    .dribbble-banner .first {
+        padding: 0;
+    }
+
+    .dribbble-banner .second a {
+        font-size: 16px;
+        padding-right: 30px;
+    }
+
+
 }
 
 

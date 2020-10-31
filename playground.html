@@ -23,42 +23,42 @@
     <div class="scrollMe" data-scrollbar>
         <div class="video-container">
             <div class="card" id="qoinstackCards">
-                <video width="100%" muted="" preload="auto" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/7684304/media/d34aeb8bfc6bf583adb24772bd150402.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="metadata" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/7684304/media/d34aeb8bfc6bf583adb24772bd150402.mp4" class="shotVideo"></video>
             </div>
             <div class="card" id="rtaCards">
-                <video width="100%" muted="" preload="auto" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14297557/media/319caf80ab4147cce3966e0aa2034823.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14297557/media/319caf80ab4147cce3966e0aa2034823.mp4" class="shotVideo"></video>
             </div>
             <div class="card" id="rtaMap">
-                <video width="100%" muted="" preload="auto" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14397563/media/7df6775c091f7e5d15edeab84076ad99.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14397563/media/7df6775c091f7e5d15edeab84076ad99.mp4" class="shotVideo"></video>
 
             </div>
             <div class="card" id="aeroFitnessOnboarding">
-                <video width="100%" muted="" preload="auto" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14340706/media/5085876c2bca6f26d922f1f248cb21bd.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14340706/media/5085876c2bca6f26d922f1f248cb21bd.mp4" class="shotVideo"></video>
             </div>
             <div class="card" id="rtaAR">
-                <video width="100%" muted="" preload="auto" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14390163/media/0dade25ccbb99852c0a87b886cc92be5.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14390163/media/0dade25ccbb99852c0a87b886cc92be5.mp4" class="shotVideo"></video>
             </div>
             <div class="card" id="akshaakProdut">
-                <video width="100%" muted="" preload="auto" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14376154/media/6cecc5ff4db2bf7b10cc026527088cf8.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14376154/media/6cecc5ff4db2bf7b10cc026527088cf8.mp4" class="shotVideo"></video>
             </div>
             <div class="card" id="qoinstackOnboarding">
-                <video width="100%" muted="" preload="auto" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/7879018/media/ea01929eee027df1b7abfc39fce8f4db.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/7879018/media/ea01929eee027df1b7abfc39fce8f4db.mp4" class="shotVideo"></video>
             </div>
             <div class="card" id="aeroFitnessGamification">
-                <video width="100%" muted="" preload="auto" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14354337/media/324488012299af5a1b1dfd023d4a6308.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/14354337/media/324488012299af5a1b1dfd023d4a6308.mp4" class="shotVideo"></video>
 
             </div>
             <div class="card" id="qoinstackTransfer">
-                <video width="100%" muted="" preload="auto" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/7854216/media/01e4fff7c4fc8b95ebf1331328fd62d5.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/7854216/media/01e4fff7c4fc8b95ebf1331328fd62d5.mp4" class="shotVideo"></video>
             </div>
             <div class="card" id="dribbbleInvite">
-                <video width="100%" muted="" preload="auto" loop="1" src="playground/invite.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="playground/invite.mp4" class="shotVideo"></video>
             </div>
             <div class="card" id="qoinstackFingerprint">
-                <video width="100%" muted="" preload="auto" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/7739036/media/92793d6427b70808e2f0b442df6a15ed.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="https://cdn.dribbble.com/users/1261673/screenshots/7739036/media/92793d6427b70808e2f0b442df6a15ed.mp4" class="shotVideo"></video>
             </div>
             <div class="card" id="quotely">
-                <video width="100%" muted="" preload="auto" loop="1" src="playground/quotely.mp4" class="shotVideo"></video>
+                <video width="100%" muted="" preload="video" loop="1" src="playground/quotely.mp4" class="shotVideo"></video>
             </div>
         </div>
 
@@ -103,9 +103,20 @@
 
     $("body").prepend($(".sticky-button"));
 
+    //random color generator
+    function getRandomColor() {
+        var letters = '0123456789ABCDEF';
+        var color = '#';
+        for (var i = 0; i < 6; i++) {
+            color += letters[Math.floor(Math.random() * 16)];
+        }
+        return color;
+    }
+
     $(document).ready(function() {
         $(".shotVideo").mouseover(function() {
             (this).play();
+            $("#magicMouseCursor").css("border-color", getRandomColor())
         });
         $(".shotVideo").mouseout(function() {
             (this).pause();

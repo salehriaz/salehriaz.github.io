@@ -2,13 +2,13 @@ body #magicMouseCursor {
     position: fixed;
     width: 35px;
     height: 35px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
+    border: 1px solid rgb(255 255 255 / 0.4);
     border-radius: 50%;
     z-index: 9999;
     left: 0;
     top: 0;
-    pointer-events: none;
     transition: transform 0.07s, width 0.3s, height 0.3s;
+    pointer-events: none;
 }
 
 body #magicMouseCursor.cursor-square {
@@ -28,7 +28,9 @@ body #magicPointer {
 }
 
 body #magicPointer.is-hover {
-    background: red;
+    background: #fff;
+    border: 1px solid #fff;
+
 }
 
 body #magicPointer.pointer-blur {
