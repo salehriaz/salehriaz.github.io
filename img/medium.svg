@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+    <title>medium</title>
+    <desc>Created with Sketch.</desc>
+    <g id="medium" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g transform="translate(4.000000, 4.000000)">
+            <rect id="Rectangle-Copy-11" fill="#D8D8D8" opacity="0" x="0" y="0" width="50" height="50"></rect>
+            <g id="resume-copy-2" transform="translate(11.000000, 17.000000)">
+                <rect id="Rectangle-Copy-11" fill="#D8D8D8" opacity="0" x="12.6858238" y="6.57088123" width="1.34099617" height="1.34099617"></rect>
+                <g id="Group" transform="translate(13.007663, 6.865900)">
+                    <g id="Group-2" transform="translate(0.500000, 0.500000) scale(1, -1) translate(-0.500000, -0.500000) ">
+                        <polygon id="Rectangle" stroke="#FFFFFF" stroke-width="2.5" points="0 0 0.777777779 0 0.985185185 0.199259258 0.985185185 0.981481481 0 0.981481481"></polygon>
+                        <polygon id="Rectangle" fill="#FFFFFF" points="0.96923077 0.214814814 0.753846154 0.214814814 0.753846154 0.0148148145"></polygon>
+                    </g>
+                    <ellipse id="Oval" stroke="#FFFFFF" stroke-width="2.5" cx="0.484615385" cy="0.283333333" rx="1" ry="1"></ellipse>
+                    <line x1="0.251282052" y1="0.698148148" x2="0.72991453" y2="0.698148148" id="Path-3-Copy" stroke="#FFFFFF" stroke-width="2.5"></line>
+                    <line x1="0.251282052" y1="0.551481481" x2="0.72991453" y2="0.551481481" id="Path-3" stroke="#FFFFFF" stroke-width="2.5"></line>
+                </g>
+                <g id="medium" fill="#FFFFFF" fill-rule="nonzero">
+                    <path d="M15.7880843,7.94835249 C15.7880843,12.3379693 12.2537548,15.8964368 7.89417625,15.8964368 C3.5345977,15.8964368 0,12.3371648 0,7.94835249 C0,3.55954023 3.5343295,0 7.89417625,0 C12.254023,0 15.7880843,3.55873563 15.7880843,7.94835249 M24.4479693,7.94835249 C24.4479693,12.0802299 22.6808046,15.4311111 20.5008812,15.4311111 C18.3209579,15.4311111 16.5537931,12.0802299 16.5537931,7.94835249 C16.5537931,3.8164751 18.3206897,0.46559387 20.500613,0.46559387 C22.6805364,0.46559387 24.4477011,3.8154023 24.4477011,7.94835249 M27.9900766,7.94835249 C27.9900766,11.6495019 27.368659,14.6517241 26.6018774,14.6517241 C25.8350958,14.6517241 25.2139464,11.6503065 25.2139464,7.94835249 C25.2139464,4.24639847 25.835364,1.24498084 26.6018774,1.24498084 C27.3683908,1.24498084 27.9900766,4.24613027 27.9900766,7.94835249" id="Shape"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
