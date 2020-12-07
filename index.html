@@ -67,6 +67,9 @@
                         <a class="tooltip" data-tooltip="Resume" href="resume_saleh.pdf" target="_blank">
                             <img class="magic-hover magic-hover__square" src="img/resume.svg" />
                         </a>
+                        <a class="tooltip email-tooltip" data-tooltip="hello@salehriaz.com" href="mailto:hello@salehriaz.com" target="_blank">
+                            <img class="magic-hover magic-hover__square" src="img/email.svg" />
+                        </a>
                         <a class="tooltip" data-tooltip="Behance" href="https://www.behance.net/salehriaz" target="_blank">
                             <img class="magic-hover magic-hover__square" src="img/behance.svg" />
                         </a>
@@ -119,6 +122,31 @@
 <script>
     var scene = document.getElementById('scene');
     var parallax = new Parallax(scene);
+
+    //email copy
+    function copyToClipboard(text) {
+        var dummy = document.createElement("input");
+        document.body.appendChild(dummy);
+        dummy.setAttribute('value', text);
+        dummy.select();
+        document.execCommand('copy');
+        document.body.removeChild(dummy);
+    }
+
+    //turn off original click and add a new listener
+    $('a[href^=mailto]').click(function() {
+        return false;
+    });
+
+    $('.email-tooltip').click(function() {
+        var myEmail = $('.email-tooltip').attr("data-tooltip");
+        copyToClipboard(myEmail);
+        $('.email-tooltip').attr("data-tooltip", "Email Copied!");
+        setTimeout(function() {
+            $('.email-tooltip').attr("data-tooltip", myEmail);
+        }, 2000);
+
+    });
 
 </script>
 <script type="text/javascript">

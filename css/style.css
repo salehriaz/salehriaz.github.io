@@ -144,6 +144,8 @@ a {
 }
 
 .social a img {
+    width: 50px;
+
     -webkit-transition: all 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
     -moz-transition: all 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
     -ms-transition: all 0.2s cubic-bezier(0.64, 0.09, 0.08, 1);
