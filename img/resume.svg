@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 63.1 (92452) - https://sketch.com -->
+<svg width="38px" height="38px" viewBox="0 0 38 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>resume</title>
-    <desc>Created with Sketch.</desc>
-    <g id="resume" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(4.000000, 4.000000)">
-            <rect id="Rectangle-Copy-11" fill="#D8D8D8" opacity="0" x="0" y="0" width="50" height="50"></rect>
-            <g id="Group" transform="translate(12.000000, 11.000000)">
-                <g id="Group-2" transform="translate(13.000000, 14.000000) scale(1, -1) translate(-13.000000, -14.000000) ">
-                    <polygon id="Rectangle" stroke="#FFFFFF" stroke-width="2.5" points="0 0 20.2222223 0 25.6148148 5.57925923 25.6148148 27.4814815 0 27.4814815"></polygon>
-                    <polygon id="Rectangle" fill="#FFFFFF" points="25.2 6.01481481 19.6 6.01481481 19.6 0.414814806"></polygon>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-533.000000, -418.000000)">
+            <g id="resume" transform="translate(533.000000, 418.000000)">
+                <rect id="Rectangle-Copy-11" fill="#313746" fill-rule="nonzero" opacity="0" x="0" y="0" width="38" height="38"></rect>
+                <g id="Group" transform="translate(9.120000, 8.754074)">
+                    <g id="Group-2" transform="translate(9.733630, 10.442963) scale(-1, 1) rotate(-180.000000) translate(-9.733630, -10.442963) ">
+                        <polygon id="Rectangle" stroke="#313746" stroke-width="2" points="0 0 15.3688889 0 19.4672592 4.24023701 19.4672592 20.8859259 0 20.8859259"></polygon>
+                        <polygon id="Rectangle" fill="#313746" fill-rule="nonzero" points="19.152 4.57125926 14.896 4.57125926 14.896 0.315259253"></polygon>
+                    </g>
+                    <circle id="Oval" stroke="#313746" stroke-width="2" cx="9.576" cy="5.63525927" r="1.77333333"></circle>
+                    <line x1="4.96533335" y1="13.7925926" x2="14.4231111" y2="13.7925926" id="Path-3-Copy" stroke="#313746" stroke-width="2"></line>
+                    <line x1="4.96533335" y1="10.6715259" x2="14.4231111" y2="10.6715259" id="Path-3" stroke="#313746" stroke-width="2"></line>
                 </g>
-                <circle id="Oval" stroke="#FFFFFF" stroke-width="2.5" cx="12.6" cy="7.93333333" r="2.33333333"></circle>
-                <line x1="6.53333335" y1="18.6666667" x2="18.9777778" y2="18.6666667" id="Path-3-Copy" stroke="#FFFFFF" stroke-width="2.5"></line>
-                <line x1="6.53333335" y1="14.56" x2="18.9777778" y2="14.56" id="Path-3" stroke="#FFFFFF" stroke-width="2.5"></line>
             </g>
         </g>
     </g>

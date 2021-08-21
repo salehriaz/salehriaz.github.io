@@ -1,0 +1,77 @@
+<div class='some-page-wrapper'>
+                <div class='row'>
+                    <div class='column'>
+                        <div class='blue-column'>
+                            <div class="case-card">
+                                <img class="case-img" src="img/placeholder-img.png">
+                                <div class="case-info">
+                                    <h2 class="case-name">52 Weeks of Interaction Design</h2>
+                                    <h5 class="case-desc">Exploring unconventional designs to solve human centered usecases every week for 52 weeks</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='column'>
+                        <div class='green-column'>
+                            <div class="case-card">
+                                <img class="case-img" src="img/placeholder-img.png">
+                                <div class="case-info">
+                                    <h2 class="case-name">52 Weeks of Interaction Design</h2>
+                                    <h5 class="case-desc">Exploring unconventional designs to solve human centered usecases every week for 52 weeks</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class='row'>
+                    <div class='column'>
+                        <div class='blue-column'>
+                            <div class="case-card">
+                                <img class="case-img" src="img/placeholder-img.png">
+                                <div class="case-info">
+                                    <h2 class="case-name">52 Weeks of Interaction Design</h2>
+                                    <h5 class="case-desc">Exploring unconventional designs to solve human centered usecases every week for 52 weeks</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='column'>
+                        <div class='green-column'>
+                            <div class="case-card">
+                                <img class="case-img" src="img/placeholder-img.png">
+                                <div class="case-info">
+                                    <h2 class="case-name">52 Weeks of Interaction Design</h2>
+                                    <h5 class="case-desc">Exploring unconventional designs to solve human centered usecases every week for 52 weeks</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class='row'>
+                    <div class='column'>
+                        <div class='blue-column'>
+                            <div class="case-card">
+                                <img class="case-img" src="img/placeholder-img.png">
+                                <div class="case-info">
+                                    <h2 class="case-name">52 Weeks of Interaction Design</h2>
+                                    <h5 class="case-desc">Exploring unconventional designs to solve human centered usecases every week for 52 weeks</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='column'>
+                        <div class='green-column'>
+                            <div class="case-card">
+                                <img class="case-img" src="img/placeholder-img.png">
+                                <div class="case-info">
+                                    <h2 class="case-name">52 Weeks of Interaction Design</h2>
+                                    <h5 class="case-desc">Exploring unconventional designs to solve human centered usecases every week for 52 weeks</h5>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>

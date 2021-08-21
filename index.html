@@ -21,92 +21,219 @@
 
     <link rel="shortcut icon" href="img/favicon.png">
     <title>Saleh Riaz</title>
-    <link rel="stylesheet" href="css/style.css">
+
     <link rel="stylesheet" href="dist/magic-mouse.css" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+
+
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script>
+
     <script type="text/javascript" src="dist/magic_mouse.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-NV1WF38CSM"></script>
-
-
 
 </head>
 
 <body>
     <div class="container">
         <div class="top-bar">
-            <img src="img/nameLogo.svg" width="90px">
+            <div class="top-left logo-container">
+                <a href="#"><img src="img/logo-dark.svg" width="50px"></a>
+            </div>
+            <nav id="main-navigation" class="cl-effect-5 top-right main-nav ">
+                <ul>
+
+                    <li><a href="resume_saleh.pdf"><span data-hover="Resume">Resume</span></a><span class="delimiter">/</span></li>
+
+                    <li><a href="about.html"><span data-hover="About">About</span></a><span class="delimiter">/</span></li>
+
+                    <li><a href="/work.html"><span data-hover="Work">Work</span></a><span class="delimiter">/</span></li>
+
+                    <li><a href="/playground.html"><span data-hover="Playground">Playground</span></a><span class="delimiter">/</span></li>
+
+                    <li><a href="52weeks-intro.html"><span data-hover="52 Weeks">52 Weeks</span></a><span class="delimiter">/</span></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="introduction">
+            <h3>I specialize in <span class="txt-rotate" data-period="2000" data-rotate='[ "product", "interaction", "experience", "kickass", "human-centered", "visual" ]'></span> design</h3>
+            <h3 class="current-position">Currently working as Senior Product Designer @ <a class="introduction-link" href="https://www.sendoso.com" target="_blank">Sendoso</a>
+                <div class="company-profile smoothen">
+                    <div class="company-screenshot">
+                        <img src="img/company-screen.jpg" height="137px">
+                    </div>
+                    <div class="company-info">
+                        <img src="img/company-logo.svg" height="20px">
+                        <h5 class="company-headline">The Leading Sending Platform™</h5>
+                        <p class="company-text">Build stronger, deeper, and more trusted relationships that move everything up and to the right!</p>
+                        <a href="https://www.sendoso.com" target="_blank">Visit website</a>
+                    </div>
+
+                </div>
+            </h3>
+
+            <div class="social-links">
+                <!--
+<a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Resume" href="resume_saleh.pdf" target="_blank">
+    <img class="" src="img/resume.svg" />
+</a>
+-->
+                <a class="email" data-bs-toggle="tooltip" data-bs-placement="bottom" title="hello@salehriaz.com" href="mailto:hello@salehriaz.com" target="_blank">
+                    <img class="" src="img/email.svg" />
+                </a>
+                <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Behance" href="https://www.behance.net/salehriaz" target="_blank">
+                    <img class="" src="img/behance.svg" />
+                </a>
+                <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Dribbble" href="https://www.dribbble.com/salehriaz" target="_blank">
+                    <img class="" src="img/dribbble.svg" />
+                </a>
+                <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="LinkedIn" href="https://www.linkedin.com/in/salehriaz/" target="_blank">
+                    <img class="" src="img/linkedin.svg" />
+                </a>
+                <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Medium" href="https://medium.com/@salehriaz" target="_blank">
+                    <img class="" src="img/medium.svg" />
+                </a>
+                <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Codepen" href="https://codepen.io/salehriaz/" target="_blank">
+                    <img class="" src="img/codepen.svg" />
+                </a>
+                <a data-bs-toggle="tooltip" data-bs-placement="bottom" title="Twitter" href="https://twitter.com/salehriazq" target="_blank">
+                    <img class="" src="img/twitter.svg" />
+                </a>
+            </div>
         </div>
 
-        <div class="portions">
-            <div class="left column">
-                <div id="scene" class="scene">
-                    <div data-depth="0.20"><img class="bulb" src="img/bulb.svg"></div>
-                    <div data-depth="0.50"><img class="curvedPage" src="img/curvedPage.svg"></div>
-                    <div data-depth="0.70"><img class="gear3" src="img/gear3.svg"></div>
-                    <div data-depth="1.20"><img class="laptop" src="img/laptop.svg"></div>
-                    <div data-depth="0.30"><img class="gear1" src="img/gear1.svg"></div>
-                    <div data-depth="0.10"><img class="person" src="img/person.svg"></div>
-                    <div data-depth="0.90"><img class="graphPage" src="img/graphPage.svg"></div>
-                    <div data-depth="0.30"><img class="gear2" src="img/gear2.svg"></div>
-
+        <section class="case-studies">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="case-card">
+                        <img class="case-img" src="img/placeholder-img.png">
+                        <div class="case-info">
+                            <h2 class="case-name">52 Weeks of Interaction Design</h2>
+                            <h5 class="case-desc">Exploring unconventional designs to solve human centered usecases every week for 52 weeks</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="case-card">
+                        <img class="case-img" src="img/placeholder-img.png">
+                        <div class="case-info">
+                            <h2 class="case-name">52 Weeks of Interaction Design</h2>
+                            <h5 class="case-desc">Exploring unconventional designs to solve human centered usecases every week for 52 weeks</h5>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="right column">
-                <div class="headline">
-                    <div class="name-div">
-                        <p class="name" style="color: #fff;">HELLO, I AM SALEH</p>
-                    </div>
-                    <div class="title-div">
-                        <h3 class="title">A UI / UX / PRODUCT DESIGNER</h3>
-                    </div>
-                </div>
-                <div class="social-div">
-                    <div class="social">
-                        <a class="tooltip" data-tooltip="Resume" href="resume_saleh.pdf" target="_blank">
-                            <img class="magic-hover magic-hover__square" src="img/resume.svg" />
-                        </a>
-                        <a class="tooltip email-tooltip" data-tooltip="hello@salehriaz.com" href="mailto:hello@salehriaz.com" target="_blank">
-                            <img class="magic-hover magic-hover__square" src="img/email.svg" />
-                        </a>
-                        <a class="tooltip" data-tooltip="Behance" href="https://www.behance.net/salehriaz" target="_blank">
-                            <img class="magic-hover magic-hover__square" src="img/behance.svg" />
-                        </a>
-                        <a class="tooltip" data-tooltip="Dribbble" href="https://www.dribbble.com/salehriaz" target="_blank">
-                            <img class="magic-hover magic-hover__square" src="img/dribbble.svg" />
-                        </a>
-                        <a class="tooltip" data-tooltip="LinkedIn" href="https://www.linkedin.com/in/salehriaz/" target="_blank">
-                            <img class="magic-hover magic-hover__square" src="img/linkedin.svg" />
-                        </a>
-                        <a class="tooltip" data-tooltip="medium" href="https://medium.com/@salehriaz" target="_blank">
-                            <img class="magic-hover magic-hover__square" src="img/medium.svg" />
-                        </a>
-                        <a class="tooltip" data-tooltip="Codepen" href="https://codepen.io/salehriaz/" target="_blank">
-                            <img class="magic-hover magic-hover__square" src="img/codepen.svg" />
-                        </a>
-                        <a class="tooltip" data-tooltip="Twitter" href="https://twitter.com/salehriazq" target="_blank">
-                            <img class="magic-hover magic-hover__square" src="img/twitter.svg" />
-                        </a>
 
-                    </div>
-                </div>
+            <div class="cs-button-holder">
+                <a href="#" class="btn-outline smoothen">
+                    <span data-hover="View All Case Studies">View All Case Studies
 
 
-                <a href="playground.html" class="lstu mobile-only">Do not press here</a>
-
+                    </span>
+                </a>
             </div>
 
+            <!--            <a class="nectar-button jumbo regular extra-color-3 has-icon wpb_animate_when_almost_visible wpb_zoomIn zoomIn regular-button animated" style="margin-top: 30px; color: rgb(0, 106, 229); visibility: visible;" target="_blank" href="/digitize-telecom/" data-color-override="false" data-hover-color-override="false" data-hover-text-color-override="#fff"><span>LEARN MORE</span><i style="color: #006ae5;" class="icon-button-arrow"></i></a>-->
 
 
-        </div>
-
-        <div class="lets-spice-things-up magic-hover magic-hover__square">
-            <p class="tooltip--left desktop-only clickme" data-tooltip="Just kidding. You can click. #ReversePsychology">Do not click here</p>
-
-        </div>
-
+        </section>
     </div>
+
+    <section class="articles">
+        <div class="container">
+            <h4 class="section-title">Featured Stories</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <a href="https://medium.muz.li/aero-fitness-a-ui-ux-design-case-study-f620186a46de" target="_blank">
+                        <div class="article-card">
+                            <div class="article-img-div">
+                                <img class="case-img" src="img/article-1.jpg" class="smoothen">
+                            </div>
+                            <div class="article-info">
+                                <h2 class="article-name">Aero Fitness | A UI/UX Design Case Study</h2>
+                                <h5 class="article-desc">8 minute read</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://bootcamp.uxdesign.cc/case-study-duolingo-flash-29e3a5c21260" target="_blank">
+                        <div class="article-card">
+                            <div class="article-img-div">
+                                <img class="case-img" src="img/article-2.jpg" class="smoothen">
+                            </div>
+                            <div class="article-info">
+                                <h2 class="article-name">Duolingo Flash: Interaction Design Case Study</h2>
+                                <h5 class="article-desc">6 minute read</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-md-4">
+                    <a href="https://blog.prototypr.io/using-dohertys-threshold-law-of-ux-to-design-special-olympics-world-games-2019-app-90d4f276298f" target="_blank">
+                        <div class="article-card">
+                            <div class="article-img-div">
+                                <img class="case-img" src="img/article-3.jpg" class="smoothen">
+                            </div>
+                            <div class="article-info">
+                                <h2 class="article-name"> Doherty’s Threshold x Special Olympics World Games App</h2>
+                                <h5 class="article-desc">8 minute read</h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+            <div class="cs-button-holder">
+                <a href="https://medium.com/@salehriaz" class="btn-outline smoothen">
+                    View All Stories
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#"><img src="img/logo-dark.svg" width="50px"></a>
+                    <img src="img/line.svg">
+                    <a class="footer-email" href="mailto:hello@salehriaz.com">hello@salehriaz.com</a>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="float-right">
+                        <div class="footer-links">
+
+
+                            <a title="Behance" href="https://www.behance.net/salehriaz" target="_blank">
+                                <img class="" src="img/behance.svg" />
+                            </a>
+                            <a title="Dribbble" href="https://www.dribbble.com/salehriaz" target="_blank">
+                                <img class="" src="img/dribbble.svg" />
+                            </a>
+                            <a title="LinkedIn" href="https://www.linkedin.com/in/salehriaz/" target="_blank">
+                                <img class="" src="img/linkedin.svg" />
+                            </a>
+                            <a title="medium" href="https://medium.com/@salehriaz" target="_blank">
+                                <img class="" src="img/medium.svg" />
+                            </a>
+
+                            <a title="Twitter" href="https://twitter.com/salehriazq" target="_blank">
+                                <img class="" src="img/twitter.svg" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
 
     <div class="loader-overlay">
 
@@ -118,10 +245,48 @@
         </div>
     </div>
 
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+    <script>
+        //tooltip
+        var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+        var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
+            return new bootstrap.Tooltip(tooltipTriggerEl, {
+                'customClass': 'custom-tooltip'
+            })
+        })
+
+    </script>
+
 </body>
-<script>
-    var scene = document.getElementById('scene');
-    var parallax = new Parallax(scene);
+
+<script type="text/javascript">
+    //    options = {
+    //        "cursorOuter": "circle-basic",
+    //        "hoverEffect": "circle-move",
+    //        "hoverItemMove": false,
+    //        "defaultCursor": false,
+    //        "outerWidth": 30,
+    //        "outerHeight": 30
+    //    };
+    //    magicMouse(options);
+
+    function pageRedirect() {
+        window.location.replace("playground.html");
+    }
+
+    $(".clickme").click(function() {
+        $(".loader-overlay").css("transform", "translateX(100%)");
+
+        setTimeout("pageRedirect()", 3400);
+    });
+
+    //    setTimeout(function() {
+    //        $('.social-div').css("overflow", "visible")
+    //    }, 2000);
+
 
     //email copy
     function copyToClipboard(text) {
@@ -135,45 +300,41 @@
 
     //turn off original click and add a new listener
     $('a[href^=mailto]').click(function() {
-        return false;
+        //        return false;
+
     });
 
-    $('.email-tooltip').click(function() {
-        var myEmail = $('.email-tooltip').attr("data-tooltip");
-        copyToClipboard(myEmail);
-        $('.email-tooltip').attr("data-tooltip", "Email Copied!");
+    $('a[href^=mailto]').click(function() {
+        var myemail = $('a[href^=mailto]').attr("title");
+        console.log(myemail);
+        copyToClipboard(myemail);
+        //        $('.tooltip > .tooltip-inner').innerHTML("Email Copied!");
         setTimeout(function() {
-            $('.email-tooltip').attr("data-tooltip", myEmail);
+            $('.tooltip > .tooltip-inner').attr("title", myemail);
         }, 2000);
 
     });
 
-</script>
-<script type="text/javascript">
-    options = {
-        "cursorOuter": "circle-basic",
-        "hoverEffect": "circle-move",
-        "hoverItemMove": false,
-        "defaultCursor": false,
-        "outerWidth": 30,
-        "outerHeight": 30
-    };
-    magicMouse(options);
 
-    function pageRedirect() {
-        window.location.replace("playground.html");
-    }
-
-    $(".clickme").click(function() {
-        $(".loader-overlay").css("transform", "translateX(100%)");
-
-        setTimeout("pageRedirect()", 3400);
+    //hover company
+    $(".introduction-link").hover(function() {
+        console.log("company");
+        $(".company-profile").css("visibility", "visible");
+        //        $(".company-profile").css("transform", "translateY(0px)");
+    }, function() {
+        $(".company-profile").css("visibility", "hidden");
+        //        $(".company-profile").css("transform", "translateY(30px)");
     });
 
-    setTimeout(function() {
-        $('.social-div').css("overflow", "visible")
-    }, 2000);
+    $(".company-profile").hover(function() {
+        $(".company-profile").css("visibility", "visible");
+        //        $(".company-profile").css("transform", "translateY(0px)");
+    }, function() {
+        $(".company-profile").css("visibility", "hidden");
+        // $(".company-profile").css("transform", "translateY(30px)");
+    });
 
 </script>
+
 
 </html>

@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="58px" height="58px" viewBox="0 0 58 58" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="39px" height="38px" viewBox="0 0 39 38" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <title>email</title>
-    <g id="email" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g transform="translate(4.000000, 4.000000)">
-            <rect id="Rectangle-Copy-11" fill="#D8D8D8" opacity="0" x="0" y="0" width="50" height="50"></rect>
-            <g transform="translate(11.000000, 14.000000)" id="Shape" stroke="#FFFFFF" stroke-width="2.5">
-                <path d="M0,4.66666667 L12.2733333,12.8488889 C13.3187814,13.5463986 14.6812186,13.5463986 15.7266667,12.8488889 L28,4.66666667 M3.11111111,21.7777778 L24.8888889,21.7777778 C26.6071081,21.7777778 28,20.3848859 28,18.6666667 L28,3.11111111 C28,1.39289189 26.6071081,0 24.8888889,0 L3.11111111,0 C1.39289189,0 0,1.39289189 0,3.11111111 L0,18.6666667 C0,20.3848859 1.39289189,21.7777778 3.11111111,21.7777778 Z"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop-HD" transform="translate(-724.000000, -418.000000)">
+            <g id="social" transform="translate(533.000000, 418.000000)">
+                <g id="email" transform="translate(191.809524, 0.000000)">
+                    <rect id="Rectangle-Copy-11" fill="#313746" fill-rule="nonzero" opacity="0" x="0" y="0" width="38" height="38"></rect>
+                    <g id="Shape" transform="translate(8.360000, 10.640000)" stroke="#313746" stroke-width="2">
+                        <path d="M0,3.54666667 L9.32773331,9.76515556 C10.1222739,10.2952629 11.1577261,10.2952629 11.9522667,9.76515556 L21.28,3.54666667 M2.36444444,16.5511111 L18.9155556,16.5511111 C20.2214022,16.5511111 21.28,15.4925133 21.28,14.1866667 L21.28,2.36444444 C21.28,1.05859784 20.2214022,0 18.9155556,0 L2.36444444,0 C1.05859784,0 0,1.05859784 0,2.36444444 L0,14.1866667 C0,15.4925133 1.05859784,16.5511111 2.36444444,16.5511111 Z"></path>
+                    </g>
+                </g>
             </g>
         </g>
     </g>
