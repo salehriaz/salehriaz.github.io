@@ -16,6 +16,40 @@ a {
     text-decoration: none;
 }
 
+.wip{
+    /* color: white;
+    background: #ffbd172f; */
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    top: 0;
+    pointer-events: none;
+    overscroll-behavior: contain;
+}
+
+.wip .wip-text{
+    font-weight: bold;
+}
+
+.wip-blur{
+    backdrop-filter: blur(3px);
+    color: white;
+    background: rgb(232 245 255 / 70%);
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    top: 0;
+    overscroll-behavior: contain;
+}
+
 .container {
     width: 100%;
     /*    overflow: hidden;*/
@@ -51,7 +85,7 @@ a {
 
 
 #main-navigation a {
-    font-size: 12px;
+    font-size: 13px;
     color: #313746;
     letter-spacing: 0;
 }
@@ -447,7 +481,7 @@ nav a:focus {
 }
 
 
-/*ABOUT PAGE*/
+/* ABOUT PAGE */
 
 .hero-img {
     width: 100%;
@@ -466,7 +500,9 @@ nav a:focus {
 }
 */
 
-.hero-vertical {}
+.spacer-1{
+    padding: 10%;
+}
 
 .container-full {
     width: 100%;
