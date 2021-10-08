@@ -37,6 +37,7 @@ a {
 
 .wip-blur{
     backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
     color: white;
     background: rgb(232 245 255 / 70%);
     width: 100vw;
