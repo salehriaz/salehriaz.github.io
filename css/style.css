@@ -71,6 +71,10 @@ a {
     float: right;
 }
 
+.top-left img{
+    margin-top: 4px;
+}
+
 #main-navigation ul {
     margin-left: -5px;
 }
@@ -89,6 +93,7 @@ a {
     font-size: 13px;
     color: #313746;
     letter-spacing: 0;
+    line-height: 16px;
 }
 
 #main-navigation a:link {
@@ -111,9 +116,9 @@ a {
 .cl-effect-5 a span {
     position: relative;
     display: inline-block;
-    -webkit-transition: -webkit-transform 0.3s;
-    -moz-transition: -moz-transform 0.3s;
-    transition: transform 0.3s;
+    -webkit-transition: -webkit-transform 0.4s;
+    -moz-transition: -moz-transform 0.4s;
+    transition: transform 0.4s;
 }
 
 nav a {
@@ -486,12 +491,11 @@ nav a:focus {
 
 .hero-img {
     width: 100%;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
+    /* -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     -moz-transition: all .5s ease;
     -webkit-transition: all .5s ease;
-    -o-transition: all .5s ease;
+    -o-transition: all .5s ease; */
 }
 
 /*
@@ -502,18 +506,88 @@ nav a:focus {
 */
 
 .spacer-1{
-    padding: 10%;
+    padding: 5% 15%;
 }
 
 .container-full {
     width: 100%;
 }
 
+.about-summary h4{
+    font-weight: 700;
+    font-size: 24px;
+    color: #313746;
+    letter-spacing: 0;
+    margin-bottom: 32px;
+    display: inline-block;
+}
+
+.about img{
+    border-radius: 15px;
+}
+
+.about a{
+    font-weight: 700;
+    color:#313746;
+}
+
+/* .about a:hover{
+    opacity: 0.7;
+} */
+
+.about .work-stack a:hover{
+    opacity: 1;
+}
+
+.about p{
+    line-height: 180%;
+    margin-bottom: 24px;
+}
+
+.work-stack img{
+    width: 24px;
+
+}
+
+.about .bottom-row{
+    margin-top: 100px;
+}
 
 
+.linear-wipe:hover {
+    background: linear-gradient(to right, #f07373 15%, #64d6b8 30%, #7398f0 45%, #994deb 60%, #f0739b 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: shine 3s linear infinite;
+            animation: shine 3s linear infinite;
+            
+    cursor:default;
+  }
 
+  .linear-wipe-link:hover{
+    background: linear-gradient(to right, #f07373 15%, #64d6b8 30%, #7398f0 45%, #994deb 60%, #f0739b 80%);
+    background-size: 200% auto;
+    color: #000;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: shine 3s linear infinite;
+            animation: shine 3s linear infinite;
+  }
 
-
+  @-webkit-keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
+  @keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+  }
 
 
 
@@ -1257,8 +1331,21 @@ nav a:focus {
 }
 
 
+/* MOBILE MENU */
+
+
 
 /*RESPONSIVE*/
+
+/* MOBILE */
+@media only screen and (max-width: 425px) {
+    .top-bar{
+        display: none;
+    }
+}
+
+
+
 
 @media only screen and (max-width: 1024px) {
     /*For Project's Intro Top Text*/
