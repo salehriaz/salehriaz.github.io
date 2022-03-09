@@ -42,14 +42,60 @@
 
 <body>
 
-    <div class="container">
+    <!-- <div class="logo-box">
+    </div> -->
+
+    <div class="container-custom">
         <div class="mobile-menu">
+            <div class="mobile-menu-overlay">
+            </div>
+            <div class="mobile-menu-items">
+                <ul>
+                    <li>
+                        <a href="resume_saleh.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a href="about.html">About</a>
+                    </li>
+                    <li>
+                        <a href="work.html">Work</a>
+                    </li>
+                    <li>
+                        <a href="playground.html">Playground</a>
+                    </li>
+                    <li>
+                        <a href="weekly.html">IxD Weekly</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="mobile-top-bar">
+                <div class="top-left logo-container">
+                    <a href="index.html">
+                        <img src="img/logo-dark.svg" width="50px">
+                    </a>
+                </div>
+
+                <div class="menu-icon top-right">
+                    <input id="menuIcon" class="menu-icon__cheeckbox" type="checkbox" />
+                    <div>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+
+
+            </div>
 
 
         </div>
         <div class="top-bar">
             <div class="top-left logo-container">
-                <a href="#"><img src="img/logo-dark.svg" width="50px"></a>
+                <a href="index.html">
+                    <img src="img/logo-dark.svg" width="50px">
+                </a>
             </div>
             <nav id="main-navigation" class="cl-effect-5 top-right main-nav ">
                 <ul>
@@ -60,19 +106,19 @@
                     <li><a href="about.html"><span data-hover="About">About</span></a><span class="delimiter">/</span>
                     </li>
 
-                    <li><a href="/work.html"><span data-hover="Work">Work</span></a><span class="delimiter">/</span>
+                    <li><a href="work.html"><span data-hover="Work">Work</span></a><span class="delimiter">/</span>
                     </li>
 
-                    <li><a href="/playground.html"><span data-hover="Playground">Playground</span></a><span
+                    <li><a class="playground-click" href="#"><span data-hover="Playground">Playground</span></a><span
                             class="delimiter">/</span></li>
 
-                    <li><a href="52weeks-intro.html"><span data-hover="52 Weeks">52 Weeks</span></a><span
+                    <li><a href="weekly.html"><span data-hover="IxD Weekly">IxD Weekly</span></a><span
                             class="delimiter">/</span></li>
                 </ul>
             </nav>
         </div>
         <div class="introduction">
-            <h3>I specialize in <span class="txt-rotate" data-period="2000"
+            <h3>I specialize in <span class="txt-rotate linear-wipe" data-period="2000"
                     data-rotate='[ "product", "interaction", "experience", "kickass", "human-centered", "visual" ]'></span>
                 design</h3>
             <h3 class="current-position">Currently working as Senior Product Designer @ <a class="introduction-link"
@@ -128,33 +174,51 @@
                 </a>
             </div>
         </div>
-
+    </div>
+    <div class="container">
         <section class="case-studies">
             <div class="row">
                 <div class="col-md-6">
                     <div class="case-card">
-                        <img class="case-img" src="img/placeholder-img.png">
-                        <div class="case-info">
-                            <h2 class="case-name">52 Weeks of Interaction Design</h2>
-                            <h5 class="case-desc">Exploring unconventional designs to solve human centered usecases
-                                every week for 52 weeks</h5>
-                        </div>
+                        <a href="#" class="case-card-anchor">
+                            <div class="case-card-media">
+                                <video muted="muted" preload="metadata" loop="1"
+                                    src="img/projects/case-studies/Akshaak.mp4" class="loaded"></video>
+                                <!-- <img class="case-img" src="img/placeholder-img.png"> -->
+                            </div>
+
+                            <div class="case-info">
+                                <h2 class="case-name">Akshaak - A Marketplace for Home-based Sellers</h2>
+                                <h5 class="case-desc">A unique marketplace for home-based sellers to focus on quality
+                                    products without thinking about the ambient processes inolved to sell an item</h5>
+                                <h5 class="case-tags">product design, mobile, web, illustrations</h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="col-md-6">
                     <div class="case-card">
-                        <img class="case-img" src="img/placeholder-img.png">
-                        <div class="case-info">
-                            <h2 class="case-name">52 Weeks of Interaction Design</h2>
-                            <h5 class="case-desc">Exploring unconventional designs to solve human centered usecases
-                                every week for 52 weeks</h5>
-                        </div>
+                        <a href="#" class="case-card-anchor">
+                            <div class="case-card-media">
+                                <video muted="muted" preload="metadata" loop="1"
+                                    src="img/projects/case-studies/Weekly.mp4" class="loaded"></video>
+                                <!-- <img class="case-img" src="img/placeholder-img.png"> -->
+                            </div>
+
+                            <div class="case-info">
+                                <h2 class="case-name">Interaction Design Weekly</h2>
+                                <h5 class="case-desc">Exploring unconventional design solutions to solve use cases
+                                    centered around humans. Researching. Prototyping. Testing.</h5>
+                                <h5 class="case-tags">interaction design, mobile, web</h5>
+                            </div>
+                        </a>
                     </div>
                 </div>
+
             </div>
 
             <div class="cs-button-holder">
-                <a href="#" class="btn-outline smoothen">
+                <a href="work.html" class="btn-outline smoothen">
                     <span data-hover="View All Case Studies">View All Case Studies
 
 
@@ -176,7 +240,7 @@
                     <a href="https://medium.muz.li/aero-fitness-a-ui-ux-design-case-study-f620186a46de" target="_blank">
                         <div class="article-card">
                             <div class="article-img-div">
-                                <img class="case-img" src="img/article-1.jpg" class="smoothen">
+                                <img class="case-img" src="img/articles/article-01.jpg" class="smoothen">
                             </div>
                             <div class="article-info">
                                 <h2 class="article-name">Aero Fitness | A UI/UX Design Case Study</h2>
@@ -189,10 +253,11 @@
                     <a href="https://bootcamp.uxdesign.cc/case-study-duolingo-flash-29e3a5c21260" target="_blank">
                         <div class="article-card">
                             <div class="article-img-div">
-                                <img class="case-img" src="img/article-2.jpg" class="smoothen">
+                                <img class="case-img" src="img/articles/article-02.jpg" class="smoothen">
                             </div>
                             <div class="article-info">
-                                <h2 class="article-name">Duolingo Flash: Interaction Design Case Study</h2>
+                                <h2 class="article-name">Duolingo Flash: Interaction Design Case Study
+                                </h2>
                                 <h5 class="article-desc">6 minute read</h5>
                             </div>
                         </div>
@@ -203,10 +268,12 @@
                         target="_blank">
                         <div class="article-card">
                             <div class="article-img-div">
-                                <img class="case-img" src="img/article-3.jpg" class="smoothen">
+                                <img class="case-img" src="img/articles/article-03.jpg" class="smoothen">
                             </div>
                             <div class="article-info">
-                                <h2 class="article-name"> Doherty’s Threshold x Special Olympics World Games App</h2>
+                                <h2 class="article-name"> Doherty’s Threshold x Special Olympics World
+                                    Games
+                                    App</h2>
                                 <h5 class="article-desc">8 minute read</h5>
                             </div>
                         </div>
@@ -214,7 +281,7 @@
                 </div>
             </div>
             <div class="cs-button-holder">
-                <a href="https://medium.com/@salehriaz" class="btn-outline smoothen">
+                <a href="https://medium.com/@salehriaz" class="btn-outline smoothen" target="_blank">
                     View All Stories
                 </a>
             </div>
@@ -258,7 +325,7 @@
         </div>
     </section>
 
-    <section class="work-in-progress" style="display: block">
+    <section class="work-in-progress" style="display: none">
         <div class="wip-blur"></div>
         <div class="wip">
             <div class="wip-text">
@@ -271,12 +338,9 @@
 
 
     <div class="loader-overlay">
-
-        <div class="overlay white-overlay">
-
-        </div>
         <div class="overlay black-overlay">
-
+        </div>
+        <div class="overlay white-overlay">
         </div>
     </div>
 

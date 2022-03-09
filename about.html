@@ -41,7 +41,54 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-custom">
+
+        <div class="mobile-menu">
+            <div class="mobile-menu-overlay">
+            </div>
+            <div class="mobile-menu-items">
+                <ul>
+                    <li>
+                        <a href="resume_saleh.pdf" target="_blank">Resume</a>
+                    </li>
+                    <li>
+                        <a href="about.html" class="mobile-menu-active">About</a>
+                    </li>
+                    <li>
+                        <a href="work.html">Work</a>
+                    </li>
+                    <li>
+                        <a href="playground.html">Playground</a>
+                    </li>
+                    <li>
+                        <a href="weekly.html">IxD Weekly</a>
+                    </li>
+                </ul>
+
+
+            </div>
+            <div class="mobile-top-bar">
+                <div class="top-left logo-container">
+                    <a href="index.html">
+                        <img src="img/logo-dark.svg" width="50px">
+                    </a>
+                </div>
+
+                <div class="menu-icon top-right">
+                    <input id="menuIcon" class="menu-icon__cheeckbox" type="checkbox" />
+                    <div>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+
+
+
+            </div>
+
+
+        </div>
+
         <div class="top-bar">
             <div class="top-left logo-container">
                 <a href="index.html"><img src="img/logo-dark.svg" width="50px"></a>
@@ -52,16 +99,16 @@
                     <li><a href="resume_saleh.pdf" target="_blank"><span data-hover="Resume">Resume</span></a><span
                             class="delimiter">/</span></li>
 
-                    <li><a href="#"><span data-hover="About">About</span></a><span class="delimiter">/</span>
+                    <li><a href="about.html"><span data-hover="About">About</span></a><span class="delimiter">/</span>
                     </li>
 
-                    <li><a href="/work.html"><span data-hover="Work">Work</span></a><span class="delimiter">/</span>
+                    <li><a href="work.html"><span data-hover="Work">Work</span></a><span class="delimiter">/</span>
                     </li>
 
-                    <li><a href="/playground.html"><span data-hover="Playground">Playground</span></a><span
+                    <li><a class="playground-click" href="#"><span data-hover="Playground">Playground</span></a><span
                             class="delimiter">/</span></li>
 
-                    <li><a href="52weeks-intro.html"><span data-hover="52 Weeks">52 Weeks</span></a><span
+                    <li><a href="weekly.html"><span data-hover="IxD Weekly">IxD Weekly</span></a><span
                             class="delimiter">/</span></li>
                 </ul>
             </nav>
@@ -106,7 +153,7 @@
                             to be tested for usability while keeping all my processes human-centered.
                         </p>
 
-                        <p>
+                        <!-- <p>
                             My work stack include
                         </p>
                         <div class="work-stack">
@@ -195,7 +242,7 @@
                                 <img class="" src="img/work-stack/figma.svg" />
                             </a>
 
-                        </div>
+                        </div> -->
 
                     </div>
 
@@ -204,12 +251,42 @@
             <div class="row bottom-row">
                 <div class="col-md-12">
                     <p>
-                        Living life with a <a class="linear-wipe-link"
+                        I live life with a <a class="linear-wipe-link"
                             href="https://www.goodreads.com/book/show/40745.Mindset">growth
-                            mindset</a> and centralizing solutions to all problems around e
+                            mindset</a> and centralizing solutions to all problems around empathy and disruptive
+                        innovation. I've always had an
+                        insiatiable curiosity for industry areas such as financial systems, e-commerce, growth,
+                        analytics and data. The curiosity became the reason for me to dive deep into these regions and
+                        eventually ended in me leading teams of problem solvers in the aforementioned industry areas.
                     </p>
-                </div>
 
+                    <p>
+                        I believe that learning must never stop no matter how old you are so I am always on the look for
+                        some cool courses and certifications that I can pursue. I recently finished a well-curated
+                        certification from Google called 'Google UX Design Professional Certificate'. The great thing
+                        about this experience was that Design @ Sendoso already uses these processes that Google uses as
+                        well. Before that, I did another super cool (and super hard) certification from the University
+                        of California San Diego called 'Interaction Design Specialization. I also write about UX,
+                        design, and tech on Medium, and I have written for some of the biggest tech blogs such as <a
+                            class="linear-wipe-link"
+                            href="https://medium.muz.li/aero-fitness-a-ui-ux-design-case-study-f620186a46de"
+                            target="_blank">Muzli</a>,
+                        <a class="linear-wipe-link"
+                            href="https://blog.prototypr.io/using-dohertys-threshold-law-of-ux-to-design-special-olympics-world-games-2019-app-90d4f276298f"
+                            target="_blank">Prototypr</a>, and <a class="linear-wipe-link"
+                            href="https://bootcamp.uxdesign.cc/52-weeks-of-interaction-design-week-1-a-palpable-card-fling-1798a21c757c"
+                            target="_blank">Bootcamp by UX Collective</a>. I have also been medium's top
+                        writer for the design
+                        category. I also judge one of the biggest national design competitions at SOFTEC. This is the
+                        same competition that I beat, 3 times in a row.
+                    </p>
+                    <div class="about-logo-container">
+                        <img class="about-logos" src="img/about/about-medium.jpg">
+                        <img class="about-logos" src="img/about/about-google.jpg">
+                        <img class="about-logos" src="img/about/about-ucsandiego.jpg">
+                        <img class="about-logos" src="img/about/about-softec.jpg">
+                    </div>
+                </div>
             </div>
 
         </div>
@@ -264,12 +341,9 @@
 
 
     <div class="loader-overlay">
-
-        <div class="overlay white-overlay">
-
-        </div>
         <div class="overlay black-overlay">
-
+        </div>
+        <div class="overlay white-overlay">
         </div>
     </div>
 
@@ -280,6 +354,9 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
         crossorigin="anonymous"></script>
+
+    <script type="text/javascript" src="js/main-postload.js"></script>
+
 
     <script>
         //tooltip
@@ -295,30 +372,6 @@
 </body>
 
 <script type="text/javascript">
-    //    options = {
-    //        "cursorOuter": "circle-basic",
-    //        "hoverEffect": "circle-move",
-    //        "hoverItemMove": false,
-    //        "defaultCursor": false,
-    //        "outerWidth": 30,
-    //        "outerHeight": 30
-    //    };
-    //    magicMouse(options);
-
-    function pageRedirect() {
-        window.location.replace("playground.html");
-    }
-
-    $(".clickme").click(function () {
-        $(".loader-overlay").css("transform", "translateX(100%)");
-
-        setTimeout("pageRedirect()", 3400);
-    });
-
-    //    setTimeout(function() {
-    //        $('.social-div').css("overflow", "visible")
-    //    }, 2000);
-
 
     //email copy
     function copyToClipboard(text) {

@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 
 
 * {
@@ -8,14 +8,28 @@
 }
 
 body {
-    background-color: #000;
+    background-color: #F8F8F8;
+    font-family: 'Inter', sans-serif;
 }
 
 .top-bar {
     padding: 55px;
-    position: absolute;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
+.top-bar img{
+    margin-top: 4px;
+}
+
+.top-left {
+    display: inline-block
+}
+
+.top-right {
+    float: right;
+}
 
 .main-container {
     text-align: center;
@@ -26,13 +40,11 @@ body {
     width: 80%;
     background-color: #fff;
     margin: 10% auto;
+    border: 1px solid #ebeef4;
+    box-shadow: 5px 4px 40px 1px rgba(49,55,70,0.15);
+-webkit-box-shadow: 5px 4px 40px 1px rgba(49,55,70,0.15);
+-moz-box-shadow: 5px 4px 40px 1px rgba(49,55,70,0.15);
 }
-
-/*
-.pres #magicMouseCursor {
-    border-color: #ff3232 !important;
-}
-*/
 
 .presentation img {
     width: 100%;
@@ -101,10 +113,3 @@ body {
 
 
 
-
-
-
-
-
-
-.hi {}
