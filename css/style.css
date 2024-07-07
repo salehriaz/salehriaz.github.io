@@ -349,6 +349,16 @@ nav a:focus {
     margin-bottom: 58px;
 }
 
+/* .landing-case-studies > div > div:not(:last-child){
+    margin-bottom: 64px;
+} */
+
+.landing-case-studies > div > div:nth-child(2), .landing-case-studies > div > div:nth-child(1){
+    margin-bottom: 64px;
+}
+
+
+
 .all-case-studies > div > div{
     margin-bottom: 64px;
 }
@@ -362,6 +372,7 @@ nav a:focus {
 .case-card img,
 .article-card img, .weekly-card img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .case-info,
@@ -405,6 +416,98 @@ nav a:focus {
 width: 100%;
 border-radius: 10px;
 }
+
+.case-card-non-video .case-card-media{
+    position: relative;
+}
+
+.case-card-non-video .case-card-media .media-overlay{
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: #32374560;
+    border-radius: 10px;
+    opacity: 0;
+
+    -webkit-transition: -webkit-all 0.6s;
+    -moz-transition: -moz-all 0.6s;
+    transition: all 0.6s;
+}
+
+.case-card .tag2{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 3px;
+    position: absolute;
+    background: #FBFCFF;
+    border-radius: 14px;
+    top: 3%;
+    Left: 3%;
+    opacity: 0;
+
+    -webkit-transition: -webkit-all 0.6s;
+    -moz-transition: -moz-all 0.6s;
+    transition: all 0.6s;
+
+}
+
+.case-card .tag2 .tag-icon img{
+ 
+    width: 90%;
+    
+}
+
+
+.case-card .tag2 .tag-text{
+
+font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+/* letter-spacing: -0.02em; */
+color: #313746;
+}
+
+.case-card .tag{
+ 
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 14px;
+    gap: 3px;
+    position: absolute;
+    background: #313746;
+    border-radius: 14px;
+    top: 3%;
+    Left: 3%;
+    
+    }
+    
+    .case-card .tag .tag-icon img{
+     
+        width: 90%;
+        
+    }
+    
+    
+    .case-card .tag .tag-text{
+    
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    /* letter-spacing: -0.02em; */
+    color: #FFFFFF;
+    }
+
+
 
 .article-desc {
     margin-top: 20px;

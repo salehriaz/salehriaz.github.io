@@ -93,6 +93,21 @@ $(document).ready(function () {
     });
 });
 
+// non video hover
+$(document).ready(function () {
+    $(".case-card-non-video").mouseenter(function () {
+        $(".tag2", this).css({"opacity": "1"});
+        $(".media-overlay", this).css({"opacity": "1"});
+        $('h2', this).addClass("linear-wipe-preactivated");
+    });
+
+    $(".case-card-non-video").mouseleave(function () {
+        $(".tag2", this).css({"opacity": "0"});
+        $(".media-overlay", this).css({"opacity": "0"});
+        $('h2', this).removeClass("linear-wipe-preactivated");
+    });
+});
+
 //weekly card hover
 $(document).ready(function () {
     $(".weekly-card-anchor").mouseenter(function () {
