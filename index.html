@@ -179,7 +179,7 @@
             <div class="row">
                 <div class="col-md-6">
                     <div class="case-card">
-                        <a href="https://www.personio.com/"
+                        <a href data-bs-toggle="modal" data-bs-target="#ModalCenterPersonio"
                             class="case-card-non-video"  target="_blank">
                             <div class="case-card-media">
                                 <!-- <video type="video/mp4" muted preload="metadata" loop="1" playsinline
@@ -205,7 +205,7 @@
                 </div>
                 <div class="col-md-6">
                     <div class="case-card">
-                        <a href="https://www.sendoso.com/"
+                        <a href data-bs-toggle="modal" data-bs-target="#ModalCenterSendoso"
                             class="case-card-non-video" target="_blank">
                             <div class="case-card-media">
                                 <!-- <video type="video/mp4" muted preload="metadata" loop="1" playsinline
@@ -339,6 +339,63 @@
         </div>
     </section>
 
+<!-- 
+    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#ModalCenterPersonio">
+        Launch demo modal
+      </button> -->
+  <!-- Modal -->
+  <div class="modal fade locked-modal" id="ModalCenterPersonio" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalLongTitle"></h5>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img class="case-img" src="img/modal_icon.svg">
+            <h3>Only available for 1-1 walkthroughs</h3>
+            <p>If you are interested in a session, send me a line and we can schedule a case study review</p>
+            <a href="mailto:hello@salehriaz.com" target="_blank" class="btn-modal-primary">
+                Send me an email
+            </a>
+            <a href="https://www.personio.com/" target="_blank" class="btn-modal-secondary">
+                Learn more about Personio
+            </a>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+
+  <div class="modal fade locked-modal" id="ModalCenterSendoso" tabindex="-1" role="dialog" aria-labelledby="ModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="ModalLongTitle"></h5>
+          <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+            <img class="case-img" src="img/modal_icon.svg">
+            <h3>Only available for 1-1 walkthroughs</h3>
+            <p>If you are interested in a session, send me a line and we can schedule a case study review</p>
+            <a href="mailto:hello@salehriaz.com" target="_blank" class="btn-modal-primary">
+                Send me an email
+            </a>
+            <a href="https://www.sendoso.com/" target="_blank" class="btn-modal-secondary">
+                Learn more about Sendoso
+            </a>
+        </div>
+
+        
+      </div>
+    </div>
+  </div>
+    
     <section class="footer">
         <div class="container">
             <div class="row">

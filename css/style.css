@@ -508,6 +508,156 @@ color: #313746;
     }
 
 
+.locked-modal .modal-header{
+    border-bottom: 0;
+    padding: 8px 8px 0 8px;
+}
+
+
+.locked-modal .modal-body{
+    margin: 0 auto;
+    text-align: center;
+    padding: 8px 30px 30px 30px;
+}
+
+.locked-modal .modal-content{
+    border: 0;
+    border-radius: 10px;
+}
+
+.locked-modal img{
+    margin-bottom: 18px;
+}
+
+.locked-modal h3{
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 19px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color: #313746;
+    margin-bottom: 8px;
+
+}
+
+.locked-modal p{
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+text-align: center;
+letter-spacing: -0.02em;
+color: #6C7385;
+margin-bottom: 24px;
+
+}
+
+.locked-modal .btn-modal-primary{
+    display: block;
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 0px;
+gap: 10px;
+
+/* Dark */
+background: #313746;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* identical to box height, or 158% */
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #FFFFFF;
+margin-bottom: 4px;
+
+-webkit-transition: -webkit-all 0.6s;
+    -moz-transition: -moz-all 0.6s;
+    transition: all 0.6s;
+
+}
+
+.locked-modal .btn-modal-primary:hover{
+    background: #000;
+}
+
+
+.locked-modal .btn-modal-secondary{
+    display: block;
+
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 12px 0px;
+gap: 10px;
+
+/* Dark */
+background: transparent;
+border-radius: 3px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+align-self: stretch;
+flex-grow: 0;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+/* identical to box height, or 158% */
+text-align: center;
+letter-spacing: -0.01em;
+
+color: #313746;
+
+-webkit-transition: -webkit-all 0.6s;
+    -moz-transition: -moz-all 0.6s;
+    transition: all 0.6s;
+
+}
+
+.locked-modal .btn-modal-secondary:hover{
+    opacity: 0.6;
+}
+
+.locked-modal .close{
+    border: 0px solid #fff;
+    outline: none;
+    background: none;
+    padding: 14px;
+    margin: 0px 1px 0px 0px;
+}
+
+.locked-modal .close span{
+    font-size: 24px;
+    font-weight: 100;
+    color: #9AA5C3;
+    line-height: 14px;
+}
+
 
 .article-desc {
     margin-top: 20px;
