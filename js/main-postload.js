@@ -179,12 +179,25 @@ document.addEventListener("DOMContentLoaded", function() {
         let otp = '';
         document.querySelectorAll('#otp > input').forEach(input => otp += input.value);
         
-        // if (otp == "12345") {
-        //     alert(`Entered OTP: ${otp}`);  
-        //   }
+        if (otp == "zmxjj")
+        {
+            // alert(`Entered OTP: ${otp}`);  
+            alert(`Good job! But did you really think that the 5 letters would be random? Go ahead and reverse the order!`);  
+        }
+        else if (otp == "jjxmz")
+        {
+                alert(`Gotteeemmm. Just kidding lol. Now you need to go back 5 letters for each of the letter to get the actual code. The answer was always in front of you....`);  
+        }
+        else if (otp == "eeshu")
+        {
+            alert(`Now imagine this takes you to a gift page which I of course did not get time to code but still okay dont hate`); 
+        }
+        else{
+            counter = counter + 1;  
+            alert(`Do you think I am stupid? What did I tell you about being cheeky?`);
+        }
         
-        counter = counter + 1;  
-        alert(`Do you think I am stupid? What did I tell you about being cheeky?`);  
+        
 
         
     });
