@@ -49,7 +49,7 @@
         
         <br><br><br><br><br><br>
         
-        But a countdown to what? Come back on 18th July to know what will happen...
+        <div id="delayedText" style="visibility: hidden;">But a countdown to what? Come back on 18th July to know what will happen...</div>
     </div>
 
 
@@ -59,7 +59,16 @@
 
    
 
-
+<script>
+    window.onload = function(){
+ // Change this value to however many seconds you want to delay the text by.
+ var theDelay = 2;
+ var timer = setTimeout("showText()",theDelay*1000)
+ }
+ function showText(){
+ document.getElementById("delayedText").style.visibility = "visible";
+ }
+</script>
 
 
     
